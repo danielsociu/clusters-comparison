@@ -1,0 +1,3009 @@
+0it [00:00, ?it/s]1it [00:00,  9.61it/s]15it [00:00, 82.99it/s]30it [00:00, 112.75it/s]45it [00:00, 125.90it/s]58it [00:00, 126.69it/s]73it [00:00, 133.47it/s]87it [00:00, 134.22it/s]102it [00:00, 136.82it/s]116it [00:00, 135.78it/s]131it [00:01, 137.19it/s]145it [00:01, 136.78it/s]160it [00:01, 138.82it/s]175it [00:01, 139.64it/s]190it [00:01, 141.24it/s]205it [00:01, 140.65it/s]220it [00:01, 142.78it/s]235it [00:01, 139.94it/s]250it [00:01, 138.16it/s]265it [00:01, 139.77it/s]280it [00:02, 141.68it/s]295it [00:02, 139.18it/s]309it [00:02, 138.66it/s]324it [00:02, 140.12it/s]339it [00:02, 139.07it/s]354it [00:02, 140.04it/s]369it [00:02, 142.36it/s]384it [00:02, 141.47it/s]399it [00:02, 141.90it/s]414it [00:03, 141.83it/s]430it [00:03, 144.82it/s]445it [00:03, 141.31it/s]460it [00:03, 141.68it/s]475it [00:03, 142.98it/s]490it [00:03, 143.82it/s]505it [00:03, 142.32it/s]520it [00:03, 141.51it/s]535it [00:03, 142.56it/s]550it [00:03, 141.97it/s]565it [00:04, 138.82it/s]580it [00:04, 141.05it/s]595it [00:04, 140.88it/s]610it [00:04, 142.32it/s]625it [00:04, 138.81it/s]639it [00:04, 137.79it/s]653it [00:04, 135.23it/s]667it [00:04, 134.26it/s]682it [00:04, 137.93it/s]696it [00:05, 135.64it/s]710it [00:05, 133.55it/s]724it [00:05, 133.11it/s]738it [00:05, 133.10it/s]752it [00:05, 133.76it/s]766it [00:05, 135.06it/s]780it [00:05, 135.24it/s]794it [00:05, 133.77it/s]808it [00:05, 134.71it/s]822it [00:06, 134.58it/s]837it [00:06, 136.93it/s]852it [00:06, 138.55it/s]867it [00:06, 140.68it/s]883it [00:06, 144.42it/s]898it [00:06, 139.91it/s]913it [00:06, 142.70it/s]928it [00:06, 140.18it/s]943it [00:06, 138.19it/s]958it [00:06, 138.77it/s]972it [00:07, 138.79it/s]986it [00:07, 136.34it/s]1000it [00:07, 132.60it/s]1014it [00:07, 133.56it/s]1028it [00:07, 134.42it/s]1043it [00:07, 137.63it/s]1057it [00:07, 135.71it/s]1071it [00:07, 135.92it/s]1085it [00:07, 136.74it/s]1100it [00:08, 140.09it/s]1115it [00:08, 140.01it/s]1130it [00:08, 139.63it/s]1145it [00:08, 141.74it/s]1160it [00:08, 141.72it/s]1175it [00:08, 141.72it/s]1190it [00:08, 142.64it/s]1205it [00:08, 140.07it/s]1220it [00:08, 140.38it/s]1235it [00:08, 139.07it/s]1250it [00:09, 141.33it/s]1265it [00:09, 142.10it/s]1280it [00:09, 142.56it/s]1295it [00:09, 144.44it/s]1311it [00:09, 147.12it/s]1326it [00:09, 142.74it/s]1341it [00:09, 142.19it/s]1356it [00:09, 141.27it/s]1371it [00:09, 138.47it/s]1386it [00:10, 141.71it/s]1401it [00:10, 141.35it/s]1416it [00:10, 141.47it/s]1431it [00:10, 142.45it/s]1446it [00:10, 141.37it/s]1461it [00:10, 143.54it/s]1476it [00:10, 142.12it/s]1491it [00:10, 142.30it/s]1506it [00:10, 139.70it/s]1520it [00:10, 139.26it/s]1534it [00:11, 138.61it/s]1548it [00:11, 138.22it/s]1563it [00:11, 141.38it/s]1578it [00:11, 137.35it/s]1594it [00:11, 142.22it/s]1609it [00:11, 143.24it/s]1624it [00:11, 142.71it/s]1639it [00:11, 142.26it/s]1654it [00:11, 140.10it/s]1669it [00:12, 137.66it/s]1683it [00:12, 134.88it/s]1699it [00:12, 141.48it/s]1714it [00:12, 141.53it/s]1729it [00:12, 140.42it/s]1744it [00:12, 137.52it/s]1758it [00:12, 136.52it/s]1772it [00:12, 137.18it/s]1787it [00:12, 139.46it/s]1801it [00:13, 136.43it/s]1817it [00:13, 142.22it/s]1832it [00:13, 140.67it/s]1848it [00:13, 144.32it/s]1863it [00:13, 139.62it/s]1878it [00:13, 138.44it/s]1892it [00:13, 137.81it/s]1906it [00:13, 137.49it/s]1920it [00:13, 138.18it/s]1934it [00:13, 136.22it/s]1948it [00:14, 137.03it/s]1962it [00:14, 135.93it/s]1976it [00:14, 136.53it/s]1990it [00:14, 136.60it/s]2004it [00:14, 136.84it/s]2018it [00:14, 135.65it/s]2033it [00:14, 138.67it/s]2047it [00:14, 139.00it/s]2062it [00:14, 140.82it/s]2077it [00:14, 138.83it/s]2092it [00:15, 140.13it/s]2107it [00:15, 139.97it/s]2122it [00:15, 138.75it/s]2136it [00:15, 138.37it/s]2150it [00:15, 137.48it/s]2164it [00:15, 137.53it/s]2179it [00:15, 138.64it/s]2193it [00:15, 138.18it/s]2209it [00:15, 141.39it/s]2224it [00:16, 138.70it/s]2240it [00:16, 142.46it/s]2255it [00:16, 138.97it/s]2270it [00:16, 140.77it/s]2285it [00:16, 141.23it/s]2300it [00:16, 139.53it/s]2315it [00:16, 140.96it/s]2330it [00:16, 140.05it/s]2345it [00:16, 139.43it/s]2360it [00:17, 140.07it/s]2375it [00:17, 140.59it/s]2390it [00:17, 140.81it/s]2405it [00:17, 142.40it/s]2420it [00:17, 142.69it/s]2435it [00:17, 140.16it/s]2450it [00:17, 140.37it/s]2465it [00:17, 143.04it/s]2480it [00:17, 141.55it/s]2495it [00:17, 140.32it/s]2510it [00:18, 137.27it/s]2525it [00:18, 138.35it/s]2539it [00:18, 136.57it/s]2554it [00:18, 140.00it/s]2569it [00:18, 142.82it/s]2584it [00:18, 144.72it/s]2599it [00:18, 141.29it/s]2614it [00:18, 141.03it/s]2629it [00:18, 142.71it/s]2644it [00:19, 140.11it/s]2659it [00:19, 142.02it/s]2674it [00:19, 142.48it/s]2689it [00:19, 140.87it/s]2704it [00:19, 139.32it/s]2718it [00:19, 137.97it/s]2732it [00:19, 134.75it/s]2746it [00:19, 133.57it/s]2760it [00:19, 135.18it/s]2775it [00:19, 136.89it/s]2789it [00:20, 135.34it/s]2803it [00:20, 134.93it/s]2817it [00:20, 136.33it/s]2831it [00:20, 136.80it/s]2845it [00:20, 134.77it/s]2859it [00:20, 134.60it/s]2874it [00:20, 138.13it/s]2889it [00:20, 139.90it/s]2904it [00:20, 140.98it/s]2919it [00:21, 138.61it/s]2934it [00:21, 138.68it/s]2948it [00:21, 137.73it/s]2962it [00:21, 136.44it/s]2977it [00:21, 139.53it/s]2991it [00:21, 139.04it/s]3006it [00:21, 139.94it/s]3020it [00:21, 139.69it/s]3034it [00:21, 137.46it/s]3048it [00:21, 136.25it/s]3062it [00:22, 135.75it/s]3076it [00:22, 136.13it/s]3091it [00:22, 136.55it/s]3106it [00:22, 138.25it/s]3121it [00:22, 139.19it/s]3135it [00:22, 139.26it/s]3150it [00:22, 139.65it/s]3164it [00:22, 138.98it/s]3178it [00:22, 136.99it/s]3193it [00:23, 137.88it/s]3207it [00:23, 138.39it/s]3221it [00:23, 137.88it/s]3235it [00:23, 138.17it/s]3249it [00:23, 138.16it/s]3264it [00:23, 138.48it/s]3278it [00:23, 138.36it/s]3292it [00:23, 135.54it/s]3307it [00:23, 137.52it/s]3321it [00:23, 137.54it/s]3336it [00:24, 139.03it/s]3351it [00:24, 140.81it/s]3366it [00:24, 142.81it/s]3381it [00:24, 141.09it/s]3396it [00:24, 141.95it/s]3411it [00:24, 138.41it/s]3425it [00:24, 136.34it/s]3440it [00:24, 137.90it/s]3454it [00:24, 137.57it/s]3469it [00:25, 140.39it/s]3484it [00:25, 138.97it/s]3499it [00:25, 139.99it/s]3514it [00:25, 140.28it/s]3529it [00:25, 140.92it/s]3544it [00:25, 142.29it/s]3559it [00:25, 140.46it/s]3574it [00:25, 138.83it/s]3588it [00:25, 138.26it/s]3602it [00:25, 137.82it/s]3617it [00:26, 140.72it/s]3633it [00:26, 144.18it/s]3648it [00:26, 145.84it/s]3664it [00:26, 148.24it/s]3679it [00:26, 144.11it/s]3694it [00:26, 141.60it/s]3709it [00:26, 139.77it/s]3723it [00:26, 137.13it/s]3739it [00:26, 141.44it/s]3754it [00:27, 141.07it/s]3769it [00:27, 139.20it/s]3783it [00:27, 137.85it/s]3797it [00:27, 137.29it/s]3812it [00:27, 139.24it/s]3826it [00:27, 137.59it/s]3841it [00:27, 138.25it/s]3857it [00:27, 142.16it/s]3872it [00:27, 143.50it/s]3887it [00:27, 139.77it/s]3902it [00:28, 140.60it/s]3917it [00:28, 142.48it/s]3932it [00:28, 139.27it/s]3946it [00:28, 137.09it/s]3961it [00:28, 138.69it/s]3975it [00:28, 138.53it/s]3991it [00:28, 142.62it/s]4006it [00:28, 143.52it/s]4021it [00:28, 142.45it/s]4036it [00:29, 141.34it/s]4051it [00:29, 142.06it/s]4066it [00:29, 143.09it/s]4081it [00:29, 139.46it/s]4096it [00:29, 140.25it/s]4111it [00:29, 138.38it/s]4126it [00:29, 139.66it/s]4140it [00:29, 138.71it/s]4155it [00:29, 140.27it/s]4170it [00:29, 142.33it/s]4185it [00:30, 141.62it/s]4200it [00:30, 139.83it/s]4214it [00:30, 139.69it/s]4229it [00:30, 140.96it/s]4244it [00:30, 138.10it/s]4259it [00:30, 140.03it/s]4274it [00:30, 140.22it/s]4289it [00:30, 139.33it/s]4304it [00:30, 141.16it/s]4320it [00:31, 144.85it/s]4336it [00:31, 146.29it/s]4351it [00:31, 143.30it/s]4366it [00:31, 140.33it/s]4382it [00:31, 142.61it/s]4397it [00:31, 143.23it/s]4412it [00:31, 141.26it/s]4427it [00:31, 139.34it/s]4441it [00:31, 139.22it/s]4455it [00:32, 138.15it/s]4470it [00:32, 139.95it/s]4485it [00:32, 140.49it/s]4500it [00:32, 138.73it/s]4514it [00:32, 138.87it/s]4528it [00:32, 139.07it/s]4543it [00:32, 141.05it/s]4558it [00:32, 140.17it/s]4573it [00:32, 141.36it/s]4588it [00:32, 141.28it/s]4603it [00:33, 140.35it/s]4618it [00:33, 142.69it/s]4633it [00:33, 140.14it/s]4648it [00:33, 139.66it/s]4662it [00:33, 137.70it/s]4677it [00:33, 139.72it/s]4692it [00:33, 141.65it/s]4708it [00:33, 144.72it/s]4723it [00:33, 142.46it/s]4738it [00:34, 142.82it/s]4738it [00:34, 139.27it/s]
+0it [00:00, ?it/s]17it [00:00, 165.93it/s]34it [00:00, 165.10it/s]52it [00:00, 167.77it/s]69it [00:00, 168.17it/s]86it [00:00, 167.04it/s]103it [00:00, 163.99it/s]120it [00:00, 163.47it/s]137it [00:00, 165.14it/s]155it [00:00, 166.61it/s]172it [00:01, 162.23it/s]189it [00:01, 162.24it/s]206it [00:01, 163.75it/s]223it [00:01, 161.94it/s]240it [00:01, 161.70it/s]257it [00:01, 161.45it/s]275it [00:01, 165.22it/s]292it [00:01, 161.64it/s]309it [00:01, 161.96it/s]326it [00:01, 163.79it/s]343it [00:02, 164.20it/s]361it [00:02, 166.09it/s]378it [00:02, 165.73it/s]395it [00:02, 166.36it/s]413it [00:02, 168.81it/s]430it [00:02, 167.40it/s]447it [00:02, 166.05it/s]464it [00:02, 166.10it/s]481it [00:02, 165.98it/s]498it [00:03, 166.27it/s]515it [00:03, 164.54it/s]532it [00:03, 163.16it/s]549it [00:03, 162.62it/s]566it [00:03, 162.61it/s]583it [00:03, 162.72it/s]600it [00:03, 161.36it/s]618it [00:03, 163.96it/s]635it [00:03, 163.43it/s]652it [00:03, 163.90it/s]669it [00:04, 162.66it/s]686it [00:04, 164.63it/s]703it [00:04, 163.37it/s]720it [00:04, 162.89it/s]737it [00:04, 163.10it/s]754it [00:04, 161.00it/s]771it [00:04, 158.89it/s]788it [00:04, 159.48it/s]805it [00:04, 159.54it/s]822it [00:05, 161.07it/s]839it [00:05, 161.09it/s]856it [00:05, 160.84it/s]873it [00:05, 161.23it/s]890it [00:05, 161.13it/s]907it [00:05, 161.93it/s]925it [00:05, 165.13it/s]943it [00:05, 166.82it/s]960it [00:05, 165.45it/s]977it [00:05, 162.96it/s]994it [00:06, 164.48it/s]1011it [00:06, 164.40it/s]1028it [00:06, 165.44it/s]1046it [00:06, 168.38it/s]1064it [00:06, 169.76it/s]1081it [00:06, 168.37it/s]1099it [00:06, 168.94it/s]1116it [00:06, 166.53it/s]1133it [00:06, 164.55it/s]1151it [00:07, 167.32it/s]1168it [00:07, 167.12it/s]1186it [00:07, 170.13it/s]1204it [00:07, 168.60it/s]1221it [00:07, 166.09it/s]1238it [00:07, 166.10it/s]1255it [00:07, 164.49it/s]1273it [00:07, 165.58it/s]1290it [00:07, 164.72it/s]1307it [00:07, 166.23it/s]1324it [00:08, 165.01it/s]1341it [00:08, 163.45it/s]1358it [00:08, 163.28it/s]1375it [00:08, 164.33it/s]1392it [00:08, 163.64it/s]1410it [00:08, 166.44it/s]1427it [00:08, 166.97it/s]1445it [00:08, 168.12it/s]1463it [00:08, 169.62it/s]1480it [00:08, 168.50it/s]1498it [00:09, 170.91it/s]1516it [00:09, 169.16it/s]1533it [00:09, 168.70it/s]1550it [00:09, 166.94it/s]1568it [00:09, 170.20it/s]1586it [00:09, 170.53it/s]1604it [00:09, 166.05it/s]1621it [00:09, 165.53it/s]1638it [00:09, 165.84it/s]1655it [00:10, 166.19it/s]1672it [00:10, 166.80it/s]1689it [00:10, 165.54it/s]1706it [00:10, 163.55it/s]1723it [00:10, 163.35it/s]1740it [00:10, 164.83it/s]1757it [00:10, 165.05it/s]1774it [00:10, 165.38it/s]1791it [00:10, 163.98it/s]1808it [00:10, 164.49it/s]1826it [00:11, 166.97it/s]1843it [00:11, 165.62it/s]1860it [00:11, 164.70it/s]1877it [00:11, 163.97it/s]1894it [00:11, 162.28it/s]1911it [00:11, 160.16it/s]1928it [00:11, 162.22it/s]1945it [00:11, 159.80it/s]1962it [00:11, 160.50it/s]1979it [00:12, 159.08it/s]1995it [00:12, 157.62it/s]2011it [00:12, 156.76it/s]2027it [00:12, 157.25it/s]2044it [00:12, 159.06it/s]2060it [00:12, 157.33it/s]2077it [00:12, 158.18it/s]2093it [00:12, 157.90it/s]2110it [00:12, 160.14it/s]2127it [00:12, 157.42it/s]2144it [00:13, 158.93it/s]2161it [00:13, 159.34it/s]2178it [00:13, 161.46it/s]2195it [00:13, 159.93it/s]2212it [00:13, 162.21it/s]2229it [00:13, 163.51it/s]2246it [00:13, 163.82it/s]2263it [00:13, 163.99it/s]2280it [00:13, 163.21it/s]2298it [00:14, 165.46it/s]2315it [00:14, 165.59it/s]2332it [00:14, 164.42it/s]2349it [00:14, 165.49it/s]2366it [00:14, 165.34it/s]2383it [00:14, 162.83it/s]2402it [00:14, 169.01it/s]2419it [00:14, 168.25it/s]2436it [00:14, 165.60it/s]2453it [00:14, 165.17it/s]2471it [00:15, 168.62it/s]2488it [00:15, 167.79it/s]2505it [00:15, 163.74it/s]2523it [00:15, 166.96it/s]2540it [00:15, 164.68it/s]2557it [00:15, 164.06it/s]2574it [00:15, 163.27it/s]2591it [00:15, 163.65it/s]2609it [00:15, 166.09it/s]2626it [00:15, 165.06it/s]2643it [00:16, 162.72it/s]2660it [00:16, 163.95it/s]2677it [00:16, 163.08it/s]2695it [00:16, 164.60it/s]2712it [00:16, 165.03it/s]2729it [00:16, 166.10it/s]2746it [00:16, 166.26it/s]2763it [00:16, 163.92it/s]2780it [00:16, 163.91it/s]2798it [00:17, 166.73it/s]2815it [00:17, 164.77it/s]2832it [00:17, 166.00it/s]2850it [00:17, 167.25it/s]2867it [00:17, 166.41it/s]2884it [00:17, 164.60it/s]2901it [00:17, 164.72it/s]2918it [00:17, 164.79it/s]2935it [00:17, 165.27it/s]2952it [00:17, 163.89it/s]2969it [00:18, 162.91it/s]2986it [00:18, 163.07it/s]3003it [00:18, 163.31it/s]3020it [00:18, 164.09it/s]3037it [00:18, 162.57it/s]3054it [00:18, 162.50it/s]3072it [00:18, 167.02it/s]3089it [00:18, 164.75it/s]3106it [00:18, 162.12it/s]3124it [00:19, 164.74it/s]3141it [00:19, 165.91it/s]3158it [00:19, 166.37it/s]3175it [00:19, 166.83it/s]3192it [00:19, 163.19it/s]3209it [00:19, 164.06it/s]3227it [00:19, 167.30it/s]3244it [00:19, 164.14it/s]3262it [00:19, 165.93it/s]3280it [00:19, 167.72it/s]3297it [00:20, 165.63it/s]3314it [00:20, 165.19it/s]3331it [00:20, 162.81it/s]3348it [00:20, 162.13it/s]3365it [00:20, 162.83it/s]3382it [00:20, 163.19it/s]3399it [00:20, 162.83it/s]3417it [00:20, 165.26it/s]3434it [00:20, 165.68it/s]3451it [00:20, 163.95it/s]3468it [00:21, 162.58it/s]3486it [00:21, 166.06it/s]3503it [00:21, 163.12it/s]3520it [00:21, 160.41it/s]3537it [00:21, 161.96it/s]3554it [00:21, 161.83it/s]3571it [00:21, 161.70it/s]3588it [00:21, 162.29it/s]3605it [00:21, 164.45it/s]3622it [00:22, 163.82it/s]3639it [00:22, 165.60it/s]3656it [00:22, 166.52it/s]3673it [00:22, 165.79it/s]3691it [00:22, 166.34it/s]3708it [00:22, 166.58it/s]3725it [00:22, 166.70it/s]3743it [00:22, 169.66it/s]3760it [00:22, 168.42it/s]3778it [00:22, 169.37it/s]3795it [00:23, 169.47it/s]3812it [00:23, 167.96it/s]3830it [00:23, 169.28it/s]3847it [00:23, 169.33it/s]3865it [00:23, 170.25it/s]3883it [00:23, 173.10it/s]3901it [00:23, 171.53it/s]3919it [00:23, 171.53it/s]3937it [00:23, 169.92it/s]3955it [00:24, 166.13it/s]3972it [00:24, 166.06it/s]3989it [00:24, 165.41it/s]4006it [00:24, 166.27it/s]4023it [00:24, 164.53it/s]4040it [00:24, 164.83it/s]4057it [00:24, 161.72it/s]4074it [00:24, 161.61it/s]4091it [00:24, 160.70it/s]4108it [00:24, 161.92it/s]4126it [00:25, 164.91it/s]4143it [00:25, 161.51it/s]4160it [00:25, 160.43it/s]4178it [00:25, 163.77it/s]4196it [00:25, 166.77it/s]4213it [00:25, 165.32it/s]4230it [00:25, 165.98it/s]4247it [00:25, 165.50it/s]4264it [00:25, 163.15it/s]4281it [00:26, 162.17it/s]4299it [00:26, 165.41it/s]4316it [00:26, 163.75it/s]4333it [00:26, 164.16it/s]4350it [00:26, 160.43it/s]4367it [00:26, 160.20it/s]4384it [00:26, 161.26it/s]4401it [00:26, 160.76it/s]4418it [00:26, 159.04it/s]4436it [00:26, 163.47it/s]4454it [00:27, 165.24it/s]4471it [00:27, 166.05it/s]4488it [00:27, 165.28it/s]4505it [00:27, 165.32it/s]4522it [00:27, 165.24it/s]4539it [00:27, 165.32it/s]4557it [00:27, 167.02it/s]4576it [00:27, 171.31it/s]4594it [00:27, 168.61it/s]4611it [00:28, 165.72it/s]4628it [00:28, 161.95it/s]4645it [00:28, 160.67it/s]4662it [00:28, 161.48it/s]4679it [00:28, 162.27it/s]4697it [00:28, 166.24it/s]4714it [00:28, 167.33it/s]4731it [00:28, 167.98it/s]4739it [00:28, 164.55it/s]
+0it [00:00, ?it/s]16it [00:00, 152.41it/s]32it [00:00, 154.32it/s]48it [00:00, 147.44it/s]63it [00:00, 147.73it/s]78it [00:00, 146.19it/s]94it [00:00, 149.13it/s]110it [00:00, 150.80it/s]126it [00:00, 151.74it/s]142it [00:00, 150.20it/s]158it [00:01, 147.59it/s]174it [00:01, 149.45it/s]189it [00:01, 149.59it/s]204it [00:01, 149.26it/s]219it [00:01, 146.43it/s]234it [00:01, 147.35it/s]250it [00:01, 150.34it/s]266it [00:01, 148.39it/s]282it [00:01, 148.79it/s]298it [00:01, 149.08it/s]314it [00:02, 150.09it/s]330it [00:02, 149.17it/s]346it [00:02, 151.22it/s]362it [00:02, 153.11it/s]378it [00:02, 151.95it/s]394it [00:02, 151.19it/s]410it [00:02, 151.41it/s]426it [00:02, 151.33it/s]443it [00:02, 155.05it/s]459it [00:03, 155.13it/s]475it [00:03, 155.23it/s]493it [00:03, 159.80it/s]509it [00:03, 158.54it/s]526it [00:03, 161.64it/s]543it [00:03, 158.96it/s]559it [00:03, 158.84it/s]575it [00:03, 155.84it/s]592it [00:03, 158.72it/s]608it [00:03, 157.82it/s]624it [00:04, 155.68it/s]640it [00:04, 154.92it/s]656it [00:04, 153.62it/s]672it [00:04, 153.36it/s]688it [00:04, 153.82it/s]704it [00:04, 151.82it/s]720it [00:04, 151.86it/s]736it [00:04, 152.16it/s]752it [00:04, 153.29it/s]768it [00:05, 149.81it/s]784it [00:05, 148.20it/s]799it [00:05, 146.96it/s]814it [00:05, 146.60it/s]830it [00:05, 147.67it/s]845it [00:05, 147.61it/s]860it [00:05, 147.61it/s]876it [00:05, 150.11it/s]892it [00:05, 151.74it/s]908it [00:05, 151.78it/s]924it [00:06, 153.19it/s]940it [00:06, 153.58it/s]956it [00:06, 155.35it/s]972it [00:06, 152.58it/s]990it [00:06, 158.94it/s]1006it [00:06, 157.60it/s]1022it [00:06, 156.22it/s]1038it [00:06, 154.54it/s]1054it [00:06, 152.29it/s]1071it [00:07, 155.20it/s]1087it [00:07, 154.73it/s]1103it [00:07, 155.48it/s]1119it [00:07, 155.31it/s]1135it [00:07, 153.23it/s]1151it [00:07, 154.16it/s]1167it [00:07, 154.66it/s]1183it [00:07, 153.75it/s]1199it [00:07, 152.89it/s]1215it [00:07, 153.58it/s]1232it [00:08, 156.71it/s]1249it [00:08, 159.08it/s]1266it [00:08, 161.21it/s]1283it [00:08, 159.66it/s]1300it [00:08, 159.42it/s]1316it [00:08, 158.51it/s]1333it [00:08, 159.76it/s]1349it [00:08, 156.71it/s]1365it [00:08, 153.66it/s]1381it [00:09, 153.23it/s]1397it [00:09, 153.21it/s]1413it [00:09, 151.55it/s]1429it [00:09, 152.61it/s]1445it [00:09, 153.90it/s]1461it [00:09, 155.47it/s]1478it [00:09, 158.33it/s]1494it [00:09, 156.52it/s]1510it [00:09, 155.85it/s]1526it [00:09, 154.37it/s]1543it [00:10, 156.31it/s]1559it [00:10, 153.83it/s]1575it [00:10, 154.05it/s]1591it [00:10, 149.74it/s]1608it [00:10, 153.48it/s]1624it [00:10, 154.46it/s]1640it [00:10, 156.01it/s]1656it [00:10, 152.30it/s]1672it [00:10, 152.15it/s]1688it [00:11, 150.13it/s]1704it [00:11, 151.38it/s]1720it [00:11, 147.34it/s]1736it [00:11, 150.42it/s]1753it [00:11, 152.63it/s]1769it [00:11, 153.09it/s]1786it [00:11, 156.84it/s]1802it [00:11, 157.41it/s]1818it [00:11, 157.08it/s]1834it [00:11, 157.26it/s]1850it [00:12, 156.45it/s]1866it [00:12, 156.32it/s]1882it [00:12, 154.82it/s]1898it [00:12, 156.22it/s]1914it [00:12, 155.83it/s]1930it [00:12, 155.03it/s]1946it [00:12, 149.53it/s]1962it [00:12, 149.61it/s]1978it [00:12, 151.00it/s]1994it [00:13, 152.06it/s]2010it [00:13, 148.42it/s]2026it [00:13, 149.58it/s]2042it [00:13, 151.40it/s]2059it [00:13, 154.44it/s]2076it [00:13, 157.93it/s]2093it [00:13, 159.64it/s]2109it [00:13, 156.85it/s]2125it [00:13, 155.14it/s]2141it [00:13, 154.53it/s]2157it [00:14, 155.57it/s]2173it [00:14, 156.30it/s]2189it [00:14, 154.83it/s]2205it [00:14, 152.62it/s]2221it [00:14, 154.01it/s]2237it [00:14, 153.94it/s]2253it [00:14, 153.48it/s]2269it [00:14, 153.74it/s]2285it [00:14, 154.12it/s]2301it [00:14, 152.72it/s]2318it [00:15, 155.99it/s]2334it [00:15, 155.24it/s]2351it [00:15, 157.62it/s]2367it [00:15, 152.09it/s]2383it [00:15, 154.23it/s]2399it [00:15, 151.99it/s]2415it [00:15, 151.55it/s]2431it [00:15, 153.10it/s]2447it [00:15, 155.05it/s]2463it [00:16, 154.39it/s]2479it [00:16, 154.70it/s]2495it [00:16, 155.20it/s]2511it [00:16, 153.53it/s]2528it [00:16, 155.98it/s]2546it [00:16, 161.18it/s]2563it [00:16, 157.73it/s]2581it [00:16, 160.59it/s]2598it [00:16, 157.43it/s]2614it [00:17, 156.50it/s]2630it [00:17, 154.60it/s]2646it [00:17, 156.07it/s]2662it [00:17, 155.40it/s]2678it [00:17, 153.78it/s]2695it [00:17, 155.11it/s]2711it [00:17, 153.99it/s]2728it [00:17, 157.69it/s]2744it [00:17, 154.89it/s]2760it [00:17, 151.89it/s]2776it [00:18, 150.62it/s]2792it [00:18, 151.20it/s]2809it [00:18, 155.03it/s]2825it [00:18, 155.12it/s]2841it [00:18, 154.27it/s]2857it [00:18, 152.66it/s]2873it [00:18, 153.07it/s]2889it [00:18, 154.93it/s]2905it [00:18, 153.50it/s]2921it [00:19, 153.80it/s]2937it [00:19, 155.45it/s]2953it [00:19, 156.72it/s]2969it [00:19, 157.20it/s]2985it [00:19, 156.24it/s]3001it [00:19, 153.74it/s]3017it [00:19, 154.46it/s]3033it [00:19, 153.90it/s]3050it [00:19, 156.12it/s]3066it [00:19, 154.92it/s]3082it [00:20, 152.39it/s]3098it [00:20, 154.10it/s]3114it [00:20, 154.51it/s]3130it [00:20, 148.83it/s]3145it [00:20, 146.83it/s]3160it [00:20, 146.10it/s]3176it [00:20, 149.27it/s]3192it [00:20, 150.58it/s]3209it [00:20, 154.75it/s]3225it [00:20, 153.79it/s]3241it [00:21, 153.07it/s]3259it [00:21, 158.60it/s]3275it [00:21, 158.23it/s]3291it [00:21, 156.91it/s]3307it [00:21, 157.11it/s]3325it [00:21, 160.98it/s]3342it [00:21, 161.86it/s]3359it [00:21, 159.58it/s]3375it [00:21, 158.92it/s]3392it [00:22, 158.41it/s]3408it [00:22, 158.08it/s]3424it [00:22, 156.27it/s]3440it [00:22, 156.01it/s]3456it [00:22, 157.17it/s]3472it [00:22, 153.47it/s]3488it [00:22, 151.79it/s]3504it [00:22, 152.71it/s]3520it [00:22, 153.76it/s]3536it [00:22, 154.14it/s]3553it [00:23, 156.81it/s]3569it [00:23, 153.69it/s]3585it [00:23, 154.13it/s]3601it [00:23, 155.18it/s]3618it [00:23, 158.61it/s]3634it [00:23, 158.92it/s]3650it [00:23, 157.69it/s]3667it [00:23, 158.55it/s]3683it [00:23, 154.09it/s]3699it [00:24, 153.50it/s]3716it [00:24, 156.39it/s]3733it [00:24, 158.00it/s]3749it [00:24, 155.98it/s]3765it [00:24, 154.96it/s]3781it [00:24, 154.09it/s]3797it [00:24, 155.12it/s]3814it [00:24, 157.98it/s]3830it [00:24, 156.57it/s]3847it [00:24, 158.85it/s]3863it [00:25, 155.45it/s]3880it [00:25, 156.78it/s]3896it [00:25, 153.32it/s]3913it [00:25, 154.94it/s]3930it [00:25, 158.24it/s]3946it [00:25, 156.96it/s]3962it [00:25, 156.88it/s]3980it [00:25, 159.59it/s]3997it [00:25, 160.83it/s]4014it [00:26, 159.60it/s]4030it [00:26, 157.98it/s]4046it [00:26, 156.01it/s]4062it [00:26, 155.00it/s]4078it [00:26, 155.90it/s]4094it [00:26, 157.00it/s]4110it [00:26, 156.53it/s]4126it [00:26, 156.62it/s]4143it [00:26, 159.14it/s]4159it [00:26, 157.44it/s]4176it [00:27, 160.87it/s]4193it [00:27, 161.04it/s]4210it [00:27, 159.54it/s]4226it [00:27, 156.59it/s]4244it [00:27, 162.48it/s]4261it [00:27, 158.83it/s]4277it [00:27, 157.30it/s]4293it [00:27, 154.16it/s]4310it [00:27, 156.22it/s]4327it [00:28, 158.14it/s]4343it [00:28, 158.38it/s]4359it [00:28, 156.80it/s]4376it [00:28, 159.52it/s]4392it [00:28, 158.29it/s]4409it [00:28, 160.47it/s]4426it [00:28, 159.99it/s]4443it [00:28, 158.16it/s]4459it [00:28, 155.26it/s]4476it [00:28, 157.40it/s]4492it [00:29, 156.81it/s]4509it [00:29, 158.18it/s]4525it [00:29, 154.69it/s]4542it [00:29, 156.93it/s]4558it [00:29, 156.28it/s]4574it [00:29, 155.03it/s]4590it [00:29, 154.71it/s]4607it [00:29, 157.21it/s]4623it [00:29, 155.96it/s]4639it [00:29, 152.41it/s]4655it [00:30, 152.36it/s]4671it [00:30, 153.76it/s]4687it [00:30, 152.09it/s]4703it [00:30, 152.22it/s]4720it [00:30, 155.60it/s]4736it [00:30, 153.78it/s]4752it [00:30, 155.37it/s]4768it [00:30, 154.49it/s]4784it [00:30, 155.92it/s]4800it [00:31, 156.43it/s]4816it [00:31, 156.74it/s]4832it [00:31, 156.74it/s]4849it [00:31, 158.65it/s]4865it [00:31, 158.16it/s]4881it [00:31, 157.60it/s]4898it [00:31, 160.86it/s]4915it [00:31, 160.41it/s]4932it [00:31, 160.72it/s]4949it [00:31, 158.59it/s]4966it [00:32, 159.53it/s]4983it [00:32, 162.23it/s]5000it [00:32, 159.75it/s]5016it [00:32, 156.48it/s]5032it [00:32, 156.31it/s]5048it [00:32, 155.48it/s]5065it [00:32, 156.92it/s]5081it [00:32, 156.38it/s]5097it [00:32, 155.41it/s]5114it [00:33, 159.04it/s]5130it [00:33, 157.75it/s]5146it [00:33, 156.75it/s]5153it [00:33, 154.89it/s]
+0it [00:00, ?it/s]14it [00:00, 137.96it/s]28it [00:00, 135.79it/s]44it [00:00, 143.76it/s]59it [00:00, 140.91it/s]74it [00:00, 140.21it/s]89it [00:00, 137.93it/s]104it [00:00, 139.12it/s]119it [00:00, 139.95it/s]134it [00:00, 140.02it/s]149it [00:01, 139.04it/s]164it [00:01, 140.14it/s]180it [00:01, 143.74it/s]195it [00:01, 141.79it/s]210it [00:01, 138.76it/s]225it [00:01, 140.44it/s]240it [00:01, 142.74it/s]255it [00:01, 141.73it/s]270it [00:01, 143.02it/s]285it [00:02, 143.84it/s]300it [00:02, 145.08it/s]315it [00:02, 144.65it/s]330it [00:02, 143.34it/s]345it [00:02, 142.24it/s]360it [00:02, 142.47it/s]375it [00:02, 143.71it/s]390it [00:02, 144.53it/s]405it [00:02, 143.60it/s]420it [00:02, 143.46it/s]435it [00:03, 145.01it/s]450it [00:03, 143.49it/s]465it [00:03, 144.02it/s]480it [00:03, 142.97it/s]495it [00:03, 143.92it/s]500it [00:03, 142.32it/s]
+0it [00:00, ?it/s]14it [00:00, 138.31it/s]31it [00:00, 153.17it/s]48it [00:00, 157.89it/s]65it [00:00, 159.55it/s]82it [00:00, 162.10it/s]99it [00:00, 162.82it/s]116it [00:00, 163.35it/s]133it [00:00, 161.07it/s]151it [00:00, 164.96it/s]168it [00:01, 162.74it/s]185it [00:01, 163.18it/s]202it [00:01, 163.94it/s]219it [00:01, 165.52it/s]236it [00:01, 163.33it/s]253it [00:01, 164.70it/s]270it [00:01, 165.56it/s]287it [00:01, 164.52it/s]304it [00:01, 165.26it/s]321it [00:01, 163.71it/s]339it [00:02, 167.12it/s]357it [00:02, 167.88it/s]374it [00:02, 164.62it/s]392it [00:02, 167.03it/s]409it [00:02, 166.23it/s]426it [00:02, 164.56it/s]443it [00:02, 162.85it/s]461it [00:02, 165.59it/s]478it [00:02, 162.73it/s]495it [00:03, 163.50it/s]500it [00:03, 163.46it/s]
+0it [00:00, ?it/s]16it [00:00, 158.74it/s]32it [00:00, 155.29it/s]48it [00:00, 157.24it/s]64it [00:00, 157.68it/s]80it [00:00, 156.01it/s]96it [00:00, 157.26it/s]112it [00:00, 155.00it/s]128it [00:00, 156.04it/s]144it [00:00, 152.97it/s]160it [00:01, 152.88it/s]176it [00:01, 153.05it/s]192it [00:01, 154.53it/s]208it [00:01, 155.54it/s]224it [00:01, 155.57it/s]241it [00:01, 156.55it/s]257it [00:01, 155.47it/s]274it [00:01, 157.33it/s]290it [00:01, 155.58it/s]306it [00:01, 155.25it/s]322it [00:02, 156.32it/s]338it [00:02, 156.94it/s]354it [00:02, 156.49it/s]370it [00:02, 153.53it/s]386it [00:02, 154.42it/s]403it [00:02, 155.95it/s]419it [00:02, 156.70it/s]435it [00:02, 156.17it/s]452it [00:02, 157.68it/s]468it [00:03, 155.27it/s]484it [00:03, 155.22it/s]500it [00:03, 155.48it/s]500it [00:03, 155.61it/s]
+The starting value for eps is: 30
+
+ Starting test with:
+DBSCAN(eps=30.0)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=30.0, min_samples=6)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=30.0, min_samples=7)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=30.0, min_samples=8)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=30.0, min_samples=9)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=30.0, min_samples=10)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=30.0, min_samples=11)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=30.0, min_samples=12)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=30.0, min_samples=13)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=30.0, min_samples=14)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=30.526315789473685)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=30.526315789473685, min_samples=6)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=30.526315789473685, min_samples=7)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=30.526315789473685, min_samples=8)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=30.526315789473685, min_samples=9)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=30.526315789473685, min_samples=10)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=30.526315789473685, min_samples=11)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=30.526315789473685, min_samples=12)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=30.526315789473685, min_samples=13)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=30.526315789473685, min_samples=14)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=31.05263157894737)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=31.05263157894737, min_samples=6)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=31.05263157894737, min_samples=7)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=31.05263157894737, min_samples=8)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=31.05263157894737, min_samples=9)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=31.05263157894737, min_samples=10)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=31.05263157894737, min_samples=11)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=31.05263157894737, min_samples=12)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=31.05263157894737, min_samples=13)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=31.05263157894737, min_samples=14)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=31.57894736842105)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=31.57894736842105, min_samples=6)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=31.57894736842105, min_samples=7)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=31.57894736842105, min_samples=8)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=31.57894736842105, min_samples=9)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=31.57894736842105, min_samples=10)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=31.57894736842105, min_samples=11)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=31.57894736842105, min_samples=12)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=31.57894736842105, min_samples=13)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=31.57894736842105, min_samples=14)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=32.10526315789474)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=32.10526315789474, min_samples=6)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=32.10526315789474, min_samples=7)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=32.10526315789474, min_samples=8)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=32.10526315789474, min_samples=9)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=32.10526315789474, min_samples=10)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=32.10526315789474, min_samples=11)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=32.10526315789474, min_samples=12)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=32.10526315789474, min_samples=13)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=32.10526315789474, min_samples=14)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=32.63157894736842)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=32.63157894736842, min_samples=6)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=32.63157894736842, min_samples=7)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=32.63157894736842, min_samples=8)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=32.63157894736842, min_samples=9)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=32.63157894736842, min_samples=10)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=32.63157894736842, min_samples=11)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=32.63157894736842, min_samples=12)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=32.63157894736842, min_samples=13)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=32.63157894736842, min_samples=14)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=33.1578947368421)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=33.1578947368421, min_samples=6)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=33.1578947368421, min_samples=7)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=33.1578947368421, min_samples=8)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=33.1578947368421, min_samples=9)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=33.1578947368421, min_samples=10)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=33.1578947368421, min_samples=11)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=33.1578947368421, min_samples=12)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=33.1578947368421, min_samples=13)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=33.1578947368421, min_samples=14)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=33.68421052631579)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=33.68421052631579, min_samples=6)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=33.68421052631579, min_samples=7)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=33.68421052631579, min_samples=8)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=33.68421052631579, min_samples=9)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=33.68421052631579, min_samples=10)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=33.68421052631579, min_samples=11)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=33.68421052631579, min_samples=12)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=33.68421052631579, min_samples=13)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=33.68421052631579, min_samples=14)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=34.21052631578947)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=34.21052631578947, min_samples=6)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=34.21052631578947, min_samples=7)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=34.21052631578947, min_samples=8)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=34.21052631578947, min_samples=9)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=34.21052631578947, min_samples=10)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=34.21052631578947, min_samples=11)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=34.21052631578947, min_samples=12)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=34.21052631578947, min_samples=13)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=34.21052631578947, min_samples=14)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=34.73684210526316)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=34.73684210526316, min_samples=6)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=34.73684210526316, min_samples=7)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=34.73684210526316, min_samples=8)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=34.73684210526316, min_samples=9)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=34.73684210526316, min_samples=10)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=34.73684210526316, min_samples=11)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=34.73684210526316, min_samples=12)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=34.73684210526316, min_samples=13)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=34.73684210526316, min_samples=14)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=35.26315789473684)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=35.26315789473684, min_samples=6)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=35.26315789473684, min_samples=7)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=35.26315789473684, min_samples=8)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=35.26315789473684, min_samples=9)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=35.26315789473684, min_samples=10)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=35.26315789473684, min_samples=11)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=35.26315789473684, min_samples=12)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=35.26315789473684, min_samples=13)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=35.26315789473684, min_samples=14)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=35.78947368421053)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=35.78947368421053, min_samples=6)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=35.78947368421053, min_samples=7)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=35.78947368421053, min_samples=8)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=35.78947368421053, min_samples=9)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=35.78947368421053, min_samples=10)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=35.78947368421053, min_samples=11)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=35.78947368421053, min_samples=12)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=35.78947368421053, min_samples=13)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=35.78947368421053, min_samples=14)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=36.31578947368421)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=36.31578947368421, min_samples=6)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=36.31578947368421, min_samples=7)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=36.31578947368421, min_samples=8)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=36.31578947368421, min_samples=9)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=36.31578947368421, min_samples=10)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=36.31578947368421, min_samples=11)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=36.31578947368421, min_samples=12)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=36.31578947368421, min_samples=13)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=36.31578947368421, min_samples=14)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=36.8421052631579)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=36.8421052631579, min_samples=6)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=36.8421052631579, min_samples=7)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=36.8421052631579, min_samples=8)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=36.8421052631579, min_samples=9)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=36.8421052631579, min_samples=10)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=36.8421052631579, min_samples=11)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=36.8421052631579, min_samples=12)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=36.8421052631579, min_samples=13)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=36.8421052631579, min_samples=14)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=37.368421052631575)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=37.368421052631575, min_samples=6)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=37.368421052631575, min_samples=7)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=37.368421052631575, min_samples=8)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=37.368421052631575, min_samples=9)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=37.368421052631575, min_samples=10)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=37.368421052631575, min_samples=11)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=37.368421052631575, min_samples=12)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=37.368421052631575, min_samples=13)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=37.368421052631575, min_samples=14)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=37.89473684210526)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=37.89473684210526, min_samples=6)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=37.89473684210526, min_samples=7)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=37.89473684210526, min_samples=8)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=37.89473684210526, min_samples=9)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=37.89473684210526, min_samples=10)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=37.89473684210526, min_samples=11)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=37.89473684210526, min_samples=12)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=37.89473684210526, min_samples=13)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=37.89473684210526, min_samples=14)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=38.421052631578945)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=38.421052631578945, min_samples=6)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=38.421052631578945, min_samples=7)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=38.421052631578945, min_samples=8)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=38.421052631578945, min_samples=9)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=38.421052631578945, min_samples=10)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=38.421052631578945, min_samples=11)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=38.421052631578945, min_samples=12)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=38.421052631578945, min_samples=13)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=38.421052631578945, min_samples=14)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=38.94736842105263)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=38.94736842105263, min_samples=6)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=38.94736842105263, min_samples=7)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=38.94736842105263, min_samples=8)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=38.94736842105263, min_samples=9)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=38.94736842105263, min_samples=10)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=38.94736842105263, min_samples=11)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=38.94736842105263, min_samples=12)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=38.94736842105263, min_samples=13)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=38.94736842105263, min_samples=14)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=39.473684210526315)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=39.473684210526315, min_samples=6)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=39.473684210526315, min_samples=7)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=39.473684210526315, min_samples=8)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=39.473684210526315, min_samples=9)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=39.473684210526315, min_samples=10)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=39.473684210526315, min_samples=11)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=39.473684210526315, min_samples=12)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=39.473684210526315, min_samples=13)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=39.473684210526315, min_samples=14)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=40.0)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=40.0, min_samples=6)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=40.0, min_samples=7)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=40.0, min_samples=8)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=40.0, min_samples=9)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=40.0, min_samples=10)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=40.0, min_samples=11)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=40.0, min_samples=12)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=40.0, min_samples=13)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+
+ Starting test with:
+DBSCAN(eps=40.0, min_samples=14)
+All classes:
+{'wild': {}, 'dog': {}, 'cat': {}}
+Matched classes:
+{}
+Predictions stats on train:
+Different than -1: 1500
+Max predicted class: -1
+Length of x: 1500
+{}
+{}
+Final accuracy on train dataset:    0.0
+Final accuracy on val dataset:      0.0
+Best accuracy found 0 with params:
+{}

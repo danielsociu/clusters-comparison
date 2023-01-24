@@ -19,8 +19,9 @@ from torchvision import transforms
 
 from sklearn.cluster import DBSCAN, AgglomerativeClustering
 from sklearn.metrics import accuracy_score
+from sklearn.preprocessing import StandardScaler
 
-SEED=42
+SEED = 42
 random.seed(SEED)
 
 
@@ -54,6 +55,30 @@ def read_featured_data(data_path, model, transformer, device):
             all_data.append({
                 "label": CLASS_NAMES[class_name],
                 "image": features.detach().cpu().numpy(),
+                "path": str(full_image_path)
+            })
+    return all_data
+
+
+def read_featured_data(data_path, orb):
+    all_data = []
+    backup_orb = cv2.ORB_create(
+        nfeatures=orb.getMaxFeatures(), fastThreshold=0, edgeThreshold=0)
+    for class_name in CLASS_NAMES.keys():
+        folder_path = data_path / class_name
+        for index, img_name in tqdm(enumerate(os.listdir(folder_path))):
+            full_image_path = folder_path / img_name
+            full_image = cv2.imread(str(full_image_path), cv2.IMREAD_COLOR)
+            _, features = orb.detectAndCompute(full_image, None)
+            if features is None:
+                _, features = backup_orb.detectAndCompute(full_image, None)
+            features = features.flatten()
+            features = np.pad(features, (0, orb.getMaxFeatures(
+            )*32 - features.shape[0]), 'constant', constant_values=(0, features[-1]))
+            features = features / 255.
+            all_data.append({
+                "label": CLASS_NAMES[class_name],
+                "image": features,
                 "path": str(full_image_path)
             })
     return all_data
@@ -179,11 +204,13 @@ def get_minimum_distance_dbscan(train_data, percent=0.7, max_eps=30):
             return eps
     return max_eps
 
+
 def get_minimum_distance_aglomerative(train_data, max_dist=250):
     X = extract_images(train_data)
     possible_values = list(range(10, max_dist, 5))
     for dist in possible_values:
-        model = AgglomerativeClustering(n_clusters=None, distance_threshold=dist, compute_full_tree=True).fit(X)
+        model = AgglomerativeClustering(
+            n_clusters=None, distance_threshold=dist, compute_full_tree=True).fit(X)
         if len(np.unique(model.labels_)) < 10:
             return dist
     return max_dist
@@ -199,10 +226,12 @@ def parse_args():
                         help='Whether to use a grid-search strategy')
     parser.add_argument('--limit-train', action='store_true',
                         help='wether to limit train to same amount of data as val')
+    parser.add_argument('--standard-scaler', action='store_true',
+                        help='whether to scale the orb output')
     parser.add_argument('--type', type=str, default='DBSCAN',
                         choices=['DBSCAN', 'AGLOMERATIVE'], help='Type of model to train')
     parser.add_argument('--feature-type', type=str, default='resnet',
-                        choices=['resnet'], help='Type of feature engineering')
+                        choices=['resnet', 'orb'], help='Type of feature engineering')
     args = parser.parse_args()
     return args
 
@@ -210,6 +239,7 @@ def parse_args():
 TRAIN_DATA_PATH = Path('./afhq/train')
 VAL_DATA_PATH = Path('./afhq/val')
 CLASS_NAMES = get_classes(TRAIN_DATA_PATH)
+
 
 def prepare_data_resnet(args):
     DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -242,6 +272,33 @@ def prepare_data_resnet(args):
     torch.cuda.empty_cache()
     return train_data, val_data
 
+
+def prepare_data_orb(args):
+
+    # read the data
+    orb = cv2.ORB_create(nfeatures=100)
+    train_data = read_featured_data(TRAIN_DATA_PATH, orb)
+    val_data = read_featured_data(VAL_DATA_PATH, orb)
+
+    train_data = random.sample(train_data, len(val_data))
+
+    if args.standard_scaler:
+        X = extract_images(train_data)
+        X_val = extract_images(train_data)
+        scaler = StandardScaler()
+        scaler.fit(X)
+
+        X = scaler.transform(X)
+        X_val = scaler.transform(X_val)
+
+        for index, sample in enumerate(train_data):
+            sample['image'] = X[index]
+        for index, sample in enumerate(val_data):
+            sample['image'] = X_val[index]
+
+    return train_data, val_data
+
+
 def main_dbscan(args, train_data, val_data):
     # extract images
     # X = extract_images(train_data)
@@ -259,7 +316,7 @@ def main_dbscan(args, train_data, val_data):
     # predfict
     if args.grid_search:
         min_eps_value = get_minimum_distance_dbscan(train_data)
-        sample_range = list(range(5,15))
+        sample_range = list(range(5, 15))
         eps_values = np.linspace(min_eps_value, min_eps_value + 10, 20)
 
         if args.limit_train:
@@ -285,9 +342,12 @@ def main_dbscan(args, train_data, val_data):
         print(best_params)
     else:
         model = DBSCAN(eps=16.3, min_samples=5)
+        if args.feature_type == "orb":
+            model = DBSCAN(eps=22.5, min_samples=5)
         if args.limit_train:
             model = DBSCAN(eps=13.12, min_samples=24)
-        train_acc, val_acc = predict(args, model, train_data, val_data, CLASS_NAMES)
+        train_acc, val_acc = predict(
+            args, model, train_data, val_data, CLASS_NAMES)
 
 
 def main_aglomerative(args, train_data, val_data):
@@ -297,13 +357,15 @@ def main_aglomerative(args, train_data, val_data):
 
         if args.limit_train:
             min_dist_value = 1
-            dist_values = np.linspace(min_dist_value, min_dist_value + 300, 150)
+            dist_values = np.linspace(
+                min_dist_value, min_dist_value + 300, 150)
 
         print(f'The starting value for dist is: {min_dist_value}')
         best_acc = 0
         best_params = {}
         for dist in dist_values:
-            model = AgglomerativeClustering(n_clusters=None, distance_threshold=dist, compute_full_tree=True)
+            model = AgglomerativeClustering(
+                n_clusters=None, distance_threshold=dist, compute_full_tree=True)
             train_acc, val_acc = predict(
                 args, model, train_data, val_data, CLASS_NAMES)
             if best_acc < val_acc:
@@ -315,16 +377,27 @@ def main_aglomerative(args, train_data, val_data):
         print(best_params)
     else:
         pass
-        model = AgglomerativeClustering(n_clusters=None, distance_threshold=343.87, compute_full_tree=True)
+        model = AgglomerativeClustering(
+            n_clusters=None, distance_threshold=343.87, compute_full_tree=True)
+        if args.feature_type == "orb":
+            model = AgglomerativeClustering(
+                n_clusters=None, distance_threshold=60.4, compute_full_tree=True)
         if args.limit_train:
-            model = AgglomerativeClustering(n_clusters=None, distance_threshold=176.16, compute_full_tree=True)
-        train_acc, val_acc = predict(args, model, train_data, val_data, CLASS_NAMES)
+            model = AgglomerativeClustering(
+                n_clusters=None, distance_threshold=176.16, compute_full_tree=True)
+        train_acc, val_acc = predict(
+            args, model, train_data, val_data, CLASS_NAMES)
 
 
 if __name__ == "__main__":
     args = parse_args()
+    if args.feature_type == "orb" and args.limit_train:
+        print("CANNOT RUN ORB WITH LIMIT TRAIN")
+        exit(-1)
     if args.feature_type == "resnet":
         train_data, val_data = prepare_data_resnet(args)
+    elif args.feature_type == "orb":
+        train_data, val_data = prepare_data_orb(args)
 
     if args.type == "DBSCAN":
         main_dbscan(args, train_data, val_data)

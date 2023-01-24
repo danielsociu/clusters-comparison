@@ -1,7 +1,8 @@
 pyenv exec python3 resnet18_model.py \
     --verbose \
-    --plot \
     --type 'AGLOMERATIVE' \
-    --feature-type 'resnet' \
+    --feature-type 'orb' \
     --grid-search
+    # --type 'DBSCAN' \
+    # --standard-scaler
     # --limit-train \

@@ -1,0 +1,809 @@
+0it [00:00, ?it/s]2it [00:00, 19.76it/s]16it [00:00, 89.04it/s]32it [00:00, 118.08it/s]47it [00:00, 127.82it/s]62it [00:00, 133.65it/s]77it [00:00, 136.27it/s]91it [00:00, 137.36it/s]106it [00:00, 140.56it/s]121it [00:00, 140.69it/s]136it [00:01, 141.55it/s]151it [00:01, 140.86it/s]166it [00:01, 143.34it/s]181it [00:01, 143.57it/s]197it [00:01, 145.20it/s]212it [00:01, 144.25it/s]227it [00:01, 143.76it/s]242it [00:01, 140.48it/s]257it [00:01, 141.31it/s]272it [00:01, 143.77it/s]287it [00:02, 142.90it/s]302it [00:02, 139.64it/s]317it [00:02, 141.24it/s]332it [00:02, 140.95it/s]347it [00:02, 139.71it/s]363it [00:02, 142.88it/s]378it [00:02, 142.85it/s]393it [00:02, 140.55it/s]408it [00:02, 142.87it/s]423it [00:03, 143.99it/s]438it [00:03, 141.34it/s]453it [00:03, 141.22it/s]468it [00:03, 141.69it/s]483it [00:03, 143.78it/s]498it [00:03, 144.36it/s]513it [00:03, 140.67it/s]528it [00:03, 142.60it/s]543it [00:03, 144.36it/s]558it [00:03, 144.51it/s]573it [00:04, 143.56it/s]589it [00:04, 147.05it/s]604it [00:04, 147.50it/s]619it [00:04, 146.57it/s]634it [00:04, 145.30it/s]649it [00:04, 141.88it/s]664it [00:04, 139.39it/s]679it [00:04, 140.45it/s]694it [00:04, 139.50it/s]709it [00:05, 139.63it/s]723it [00:05, 137.05it/s]737it [00:05, 135.05it/s]751it [00:05, 135.00it/s]765it [00:05, 136.12it/s]779it [00:05, 135.86it/s]793it [00:05, 134.74it/s]807it [00:05, 136.02it/s]821it [00:05, 134.93it/s]836it [00:05, 137.87it/s]851it [00:06, 138.81it/s]866it [00:06, 140.10it/s]882it [00:06, 143.94it/s]897it [00:06, 140.88it/s]913it [00:06, 144.50it/s]928it [00:06, 143.34it/s]943it [00:06, 140.91it/s]958it [00:06, 140.66it/s]973it [00:06, 141.56it/s]988it [00:07, 138.39it/s]1002it [00:07, 137.03it/s]1017it [00:07, 138.66it/s]1031it [00:07, 138.92it/s]1046it [00:07, 141.71it/s]1061it [00:07, 137.78it/s]1076it [00:07, 140.50it/s]1091it [00:07, 139.80it/s]1106it [00:07, 141.08it/s]1121it [00:08, 141.83it/s]1136it [00:08, 141.99it/s]1151it [00:08, 142.85it/s]1166it [00:08, 143.23it/s]1181it [00:08, 143.73it/s]1196it [00:08, 144.04it/s]1211it [00:08, 144.63it/s]1226it [00:08, 145.52it/s]1241it [00:08, 142.30it/s]1256it [00:08, 143.62it/s]1271it [00:09, 142.56it/s]1286it [00:09, 143.28it/s]1301it [00:09, 143.77it/s]1316it [00:09, 142.54it/s]1331it [00:09, 144.20it/s]1346it [00:09, 144.63it/s]1361it [00:09, 144.09it/s]1376it [00:09, 142.47it/s]1392it [00:09, 144.91it/s]1407it [00:10, 144.57it/s]1422it [00:10, 143.64it/s]1437it [00:10, 144.30it/s]1452it [00:10, 144.90it/s]1467it [00:10, 145.11it/s]1483it [00:10, 148.14it/s]1498it [00:10, 147.35it/s]1513it [00:10, 144.09it/s]1528it [00:10, 144.26it/s]1543it [00:10, 143.92it/s]1558it [00:11, 144.33it/s]1573it [00:11, 139.29it/s]1588it [00:11, 140.51it/s]1603it [00:11, 139.77it/s]1618it [00:11, 140.53it/s]1633it [00:11, 140.92it/s]1648it [00:11, 141.37it/s]1663it [00:11, 140.13it/s]1678it [00:11, 139.23it/s]1694it [00:12, 142.60it/s]1709it [00:12, 142.63it/s]1724it [00:12, 141.59it/s]1739it [00:12, 142.08it/s]1754it [00:12, 140.70it/s]1769it [00:12, 142.65it/s]1784it [00:12, 143.99it/s]1799it [00:12, 143.79it/s]1815it [00:12, 148.29it/s]1830it [00:12, 145.48it/s]1846it [00:13, 148.76it/s]1861it [00:13, 146.71it/s]1876it [00:13, 146.23it/s]1891it [00:13, 145.68it/s]1906it [00:13, 143.15it/s]1921it [00:13, 142.03it/s]1936it [00:13, 140.22it/s]1951it [00:13, 141.48it/s]1966it [00:13, 139.84it/s]1981it [00:14, 141.32it/s]1996it [00:14, 140.46it/s]2011it [00:14, 139.31it/s]2027it [00:14, 142.58it/s]2042it [00:14, 142.68it/s]2057it [00:14, 143.37it/s]2072it [00:14, 142.80it/s]2087it [00:14, 141.44it/s]2102it [00:14, 141.54it/s]2117it [00:14, 142.94it/s]2132it [00:15, 142.17it/s]2147it [00:15, 142.61it/s]2162it [00:15, 143.35it/s]2177it [00:15, 144.18it/s]2192it [00:15, 142.86it/s]2208it [00:15, 146.37it/s]2223it [00:15, 141.55it/s]2239it [00:15, 145.77it/s]2254it [00:15, 142.67it/s]2269it [00:16, 143.39it/s]2284it [00:16, 141.39it/s]2299it [00:16, 139.93it/s]2314it [00:16, 139.71it/s]2328it [00:16, 139.65it/s]2342it [00:16, 139.30it/s]2357it [00:16, 140.95it/s]2372it [00:16, 140.19it/s]2387it [00:16, 139.98it/s]2402it [00:16, 141.76it/s]2417it [00:17, 142.37it/s]2432it [00:17, 142.20it/s]2447it [00:17, 143.57it/s]2462it [00:17, 144.15it/s]2477it [00:17, 141.55it/s]2492it [00:17, 139.02it/s]2506it [00:17, 137.62it/s]2521it [00:17, 140.04it/s]2536it [00:17, 138.73it/s]2551it [00:18, 141.37it/s]2566it [00:18, 142.66it/s]2581it [00:18, 144.33it/s]2596it [00:18, 144.35it/s]2611it [00:18, 144.85it/s]2627it [00:18, 147.14it/s]2642it [00:18, 147.62it/s]2658it [00:18, 149.22it/s]2674it [00:18, 149.86it/s]2689it [00:18, 148.31it/s]2704it [00:19, 146.12it/s]2719it [00:19, 146.44it/s]2734it [00:19, 144.35it/s]2749it [00:19, 140.50it/s]2765it [00:19, 145.03it/s]2780it [00:19, 143.30it/s]2795it [00:19, 143.09it/s]2810it [00:19, 141.98it/s]2825it [00:19, 143.48it/s]2840it [00:20, 141.48it/s]2855it [00:20, 139.86it/s]2870it [00:20, 141.15it/s]2885it [00:20, 140.85it/s]2901it [00:20, 144.23it/s]2916it [00:20, 144.42it/s]2931it [00:20, 146.02it/s]2946it [00:20, 143.67it/s]2961it [00:20, 142.19it/s]2977it [00:20, 146.19it/s]2992it [00:21, 145.83it/s]3007it [00:21, 146.72it/s]3022it [00:21, 145.39it/s]3037it [00:21, 144.06it/s]3052it [00:21, 138.94it/s]3068it [00:21, 143.03it/s]3083it [00:21, 143.58it/s]3098it [00:21, 143.10it/s]3113it [00:21, 144.77it/s]3128it [00:22, 144.09it/s]3143it [00:22, 142.41it/s]3158it [00:22, 140.85it/s]3173it [00:22, 141.01it/s]3188it [00:22, 140.55it/s]3203it [00:22, 142.39it/s]3218it [00:22, 144.01it/s]3233it [00:22, 142.61it/s]3248it [00:22, 144.22it/s]3263it [00:22, 143.41it/s]3278it [00:23, 144.35it/s]3293it [00:23, 141.62it/s]3308it [00:23, 141.93it/s]3323it [00:23, 143.99it/s]3338it [00:23, 142.95it/s]3354it [00:23, 145.38it/s]3369it [00:23, 145.68it/s]3384it [00:23, 146.78it/s]3399it [00:23, 147.03it/s]3414it [00:24, 143.26it/s]3429it [00:24, 141.78it/s]3444it [00:24, 141.80it/s]3459it [00:24, 143.42it/s]3474it [00:24, 143.89it/s]3489it [00:24, 143.47it/s]3504it [00:24, 144.59it/s]3520it [00:24, 147.22it/s]3536it [00:24, 149.88it/s]3551it [00:24, 147.75it/s]3566it [00:25, 147.51it/s]3581it [00:25, 146.94it/s]3596it [00:25, 144.25it/s]3611it [00:25, 144.16it/s]3628it [00:25, 150.43it/s]3644it [00:25, 150.64it/s]3660it [00:25, 153.33it/s]3676it [00:25, 151.06it/s]3692it [00:25, 150.35it/s]3708it [00:26, 146.66it/s]3723it [00:26, 143.75it/s]3739it [00:26, 146.93it/s]3754it [00:26, 145.67it/s]3769it [00:26, 144.59it/s]3784it [00:26, 142.73it/s]3799it [00:26, 141.58it/s]3815it [00:26, 144.60it/s]3830it [00:26, 142.03it/s]3846it [00:26, 145.17it/s]3861it [00:27, 145.08it/s]3877it [00:27, 146.88it/s]3892it [00:27, 145.18it/s]3907it [00:27, 146.56it/s]3922it [00:27, 147.36it/s]3937it [00:27, 144.34it/s]3952it [00:27, 144.21it/s]3968it [00:27, 145.67it/s]3984it [00:27, 147.29it/s]4000it [00:28, 149.07it/s]4015it [00:28, 147.77it/s]4030it [00:28, 146.39it/s]4045it [00:28, 145.95it/s]4060it [00:28, 146.71it/s]4075it [00:28, 142.47it/s]4090it [00:28, 142.95it/s]4105it [00:28, 142.46it/s]4120it [00:28, 142.98it/s]4135it [00:28, 142.95it/s]4150it [00:29, 144.97it/s]4165it [00:29, 145.65it/s]4181it [00:29, 148.14it/s]4196it [00:29, 145.66it/s]4211it [00:29, 142.29it/s]4226it [00:29, 142.94it/s]4241it [00:29, 140.86it/s]4256it [00:29, 141.35it/s]4272it [00:29, 143.31it/s]4287it [00:30, 142.74it/s]4302it [00:30, 144.15it/s]4318it [00:30, 147.74it/s]4334it [00:30, 150.54it/s]4350it [00:30, 146.64it/s]4365it [00:30, 142.96it/s]4381it [00:30, 147.28it/s]4396it [00:30, 146.96it/s]4411it [00:30, 145.69it/s]4426it [00:30, 144.54it/s]4441it [00:31, 144.32it/s]4456it [00:31, 143.17it/s]4471it [00:31, 144.79it/s]4486it [00:31, 146.20it/s]4501it [00:31, 143.40it/s]4516it [00:31, 142.29it/s]4531it [00:31, 142.57it/s]4547it [00:31, 146.41it/s]4562it [00:31, 145.49it/s]4577it [00:32, 146.14it/s]4592it [00:32, 143.81it/s]4607it [00:32, 144.02it/s]4622it [00:32, 145.30it/s]4637it [00:32, 144.58it/s]4652it [00:32, 143.76it/s]4667it [00:32, 145.48it/s]4682it [00:32, 145.85it/s]4698it [00:32, 148.47it/s]4714it [00:32, 149.68it/s]4729it [00:33, 148.70it/s]4738it [00:33, 143.01it/s]
+0it [00:00, ?it/s]17it [00:00, 163.12it/s]34it [00:00, 162.33it/s]52it [00:00, 167.64it/s]69it [00:00, 167.49it/s]86it [00:00, 167.69it/s]103it [00:00, 165.45it/s]120it [00:00, 165.61it/s]138it [00:00, 167.30it/s]156it [00:00, 168.37it/s]173it [00:01, 166.06it/s]190it [00:01, 166.91it/s]208it [00:01, 168.54it/s]225it [00:01, 167.21it/s]242it [00:01, 164.45it/s]260it [00:01, 166.58it/s]278it [00:01, 170.21it/s]296it [00:01, 168.34it/s]313it [00:01, 167.36it/s]330it [00:01, 166.06it/s]347it [00:02, 165.42it/s]364it [00:02, 165.75it/s]381it [00:02, 166.02it/s]399it [00:02, 168.08it/s]417it [00:02, 168.32it/s]434it [00:02, 167.76it/s]451it [00:02, 165.10it/s]468it [00:02, 164.60it/s]485it [00:02, 165.76it/s]502it [00:03, 166.52it/s]519it [00:03, 166.99it/s]536it [00:03, 163.86it/s]554it [00:03, 166.52it/s]571it [00:03, 166.04it/s]589it [00:03, 168.27it/s]606it [00:03, 167.62it/s]623it [00:03, 166.48it/s]640it [00:03, 165.58it/s]657it [00:03, 164.24it/s]674it [00:04, 164.96it/s]691it [00:04, 164.84it/s]708it [00:04, 164.75it/s]725it [00:04, 165.22it/s]742it [00:04, 162.41it/s]759it [00:04, 161.01it/s]776it [00:04, 160.26it/s]793it [00:04, 162.35it/s]810it [00:04, 162.98it/s]828it [00:04, 165.70it/s]845it [00:05, 164.81it/s]862it [00:05, 165.76it/s]880it [00:05, 169.36it/s]897it [00:05, 168.61it/s]915it [00:05, 170.50it/s]933it [00:05, 170.55it/s]951it [00:05, 167.53it/s]968it [00:05, 167.58it/s]985it [00:05, 164.68it/s]1002it [00:06, 165.34it/s]1020it [00:06, 166.97it/s]1038it [00:06, 168.03it/s]1055it [00:06, 168.27it/s]1072it [00:06, 165.05it/s]1089it [00:06, 164.33it/s]1106it [00:06, 164.52it/s]1123it [00:06, 164.30it/s]1140it [00:06, 163.88it/s]1158it [00:06, 166.98it/s]1175it [00:07, 165.87it/s]1192it [00:07, 165.05it/s]1209it [00:07, 161.63it/s]1226it [00:07, 161.27it/s]1243it [00:07, 163.54it/s]1260it [00:07, 164.92it/s]1277it [00:07, 163.44it/s]1294it [00:07, 164.93it/s]1311it [00:07, 163.88it/s]1328it [00:08, 165.01it/s]1345it [00:08, 166.40it/s]1363it [00:08, 167.35it/s]1381it [00:08, 168.09it/s]1399it [00:08, 168.86it/s]1416it [00:08, 169.18it/s]1434it [00:08, 170.83it/s]1452it [00:08, 172.03it/s]1470it [00:08, 173.31it/s]1488it [00:08, 169.62it/s]1505it [00:09, 169.49it/s]1523it [00:09, 170.94it/s]1541it [00:09, 167.06it/s]1558it [00:09, 165.57it/s]1575it [00:09, 164.50it/s]1593it [00:09, 166.46it/s]1610it [00:09, 167.44it/s]1627it [00:09, 167.47it/s]1645it [00:09, 169.91it/s]1663it [00:09, 171.20it/s]1681it [00:10, 171.12it/s]1699it [00:10, 167.42it/s]1716it [00:10, 167.18it/s]1733it [00:10, 167.53it/s]1751it [00:10, 168.73it/s]1769it [00:10, 169.65it/s]1786it [00:10, 169.45it/s]1803it [00:10, 169.04it/s]1821it [00:10, 170.12it/s]1839it [00:11, 171.97it/s]1857it [00:11, 169.87it/s]1875it [00:11, 171.18it/s]1893it [00:11, 168.61it/s]1910it [00:11, 168.04it/s]1927it [00:11, 168.50it/s]1944it [00:11, 168.14it/s]1962it [00:11, 169.11it/s]1979it [00:11, 168.70it/s]1996it [00:11, 167.56it/s]2013it [00:12, 168.17it/s]2030it [00:12, 167.81it/s]2048it [00:12, 169.10it/s]2065it [00:12, 168.52it/s]2083it [00:12, 168.88it/s]2100it [00:12, 167.37it/s]2117it [00:12, 166.45it/s]2134it [00:12, 165.90it/s]2151it [00:12, 165.62it/s]2168it [00:12, 164.14it/s]2185it [00:13, 165.50it/s]2202it [00:13, 163.84it/s]2219it [00:13, 164.83it/s]2236it [00:13, 162.33it/s]2253it [00:13, 163.59it/s]2270it [00:13, 163.18it/s]2288it [00:13, 167.86it/s]2305it [00:13, 168.28it/s]2323it [00:13, 169.95it/s]2341it [00:14, 169.44it/s]2358it [00:14, 168.49it/s]2376it [00:14, 167.95it/s]2393it [00:14, 168.24it/s]2411it [00:14, 169.95it/s]2428it [00:14, 166.43it/s]2445it [00:14, 166.90it/s]2462it [00:14, 166.64it/s]2479it [00:14, 164.96it/s]2496it [00:14, 164.50it/s]2513it [00:15, 164.58it/s]2531it [00:15, 167.58it/s]2548it [00:15, 164.37it/s]2565it [00:15, 162.84it/s]2582it [00:15, 162.07it/s]2599it [00:15, 163.26it/s]2617it [00:15, 166.34it/s]2634it [00:15, 166.77it/s]2651it [00:15, 163.77it/s]2668it [00:16, 164.80it/s]2685it [00:16, 165.72it/s]2702it [00:16, 165.56it/s]2719it [00:16, 164.95it/s]2736it [00:16, 164.98it/s]2754it [00:16, 166.95it/s]2771it [00:16, 164.04it/s]2789it [00:16, 167.22it/s]2807it [00:16, 167.42it/s]2824it [00:16, 167.58it/s]2843it [00:17, 171.12it/s]2861it [00:17, 167.74it/s]2878it [00:17, 166.36it/s]2896it [00:17, 167.68it/s]2913it [00:17, 167.87it/s]2931it [00:17, 169.57it/s]2948it [00:17, 169.47it/s]2966it [00:17, 169.96it/s]2983it [00:17, 169.28it/s]3000it [00:17, 169.35it/s]3017it [00:18, 167.31it/s]3034it [00:18, 165.92it/s]3051it [00:18, 166.23it/s]3070it [00:18, 172.54it/s]3088it [00:18, 170.70it/s]3106it [00:18, 169.77it/s]3124it [00:18, 171.57it/s]3142it [00:18, 170.08it/s]3160it [00:18, 165.73it/s]3177it [00:19, 166.83it/s]3194it [00:19, 166.45it/s]3212it [00:19, 170.32it/s]3230it [00:19, 170.84it/s]3248it [00:19, 171.56it/s]3266it [00:19, 172.59it/s]3284it [00:19, 172.37it/s]3302it [00:19, 171.87it/s]3320it [00:19, 170.53it/s]3338it [00:19, 170.45it/s]3356it [00:20, 167.32it/s]3373it [00:20, 164.23it/s]3391it [00:20, 165.85it/s]3408it [00:20, 164.76it/s]3426it [00:20, 166.71it/s]3443it [00:20, 166.70it/s]3460it [00:20, 166.23it/s]3478it [00:20, 169.40it/s]3496it [00:20, 171.30it/s]3514it [00:21, 168.10it/s]3531it [00:21, 167.01it/s]3548it [00:21, 165.93it/s]3565it [00:21, 165.29it/s]3583it [00:21, 167.72it/s]3600it [00:21, 167.86it/s]3617it [00:21, 166.69it/s]3634it [00:21, 167.47it/s]3651it [00:21, 166.90it/s]3668it [00:21, 166.16it/s]3686it [00:22, 169.19it/s]3703it [00:22, 164.64it/s]3720it [00:22, 164.10it/s]3738it [00:22, 166.50it/s]3755it [00:22, 165.50it/s]3772it [00:22, 164.05it/s]3790it [00:22, 166.92it/s]3807it [00:22, 165.15it/s]3824it [00:22, 164.58it/s]3842it [00:23, 167.43it/s]3859it [00:23, 166.79it/s]3877it [00:23, 168.49it/s]3894it [00:23, 168.47it/s]3912it [00:23, 169.52it/s]3929it [00:23, 169.57it/s]3946it [00:23, 166.78it/s]3963it [00:23, 165.80it/s]3980it [00:23, 166.14it/s]3997it [00:23, 164.35it/s]4015it [00:24, 167.17it/s]4032it [00:24, 164.39it/s]4049it [00:24, 161.35it/s]4066it [00:24, 161.47it/s]4083it [00:24, 159.45it/s]4099it [00:24, 159.58it/s]4116it [00:24, 160.37it/s]4134it [00:24, 163.92it/s]4152it [00:24, 166.86it/s]4170it [00:24, 168.02it/s]4188it [00:25, 169.47it/s]4205it [00:25, 168.86it/s]4223it [00:25, 171.49it/s]4241it [00:25, 170.22it/s]4259it [00:25, 167.55it/s]4276it [00:25, 167.65it/s]4294it [00:25, 169.16it/s]4311it [00:25, 168.26it/s]4329it [00:25, 169.27it/s]4346it [00:26, 168.46it/s]4363it [00:26, 166.97it/s]4381it [00:26, 167.99it/s]4398it [00:26, 168.30it/s]4415it [00:26, 168.56it/s]4433it [00:26, 170.17it/s]4451it [00:26, 171.24it/s]4469it [00:26, 172.26it/s]4487it [00:26, 172.90it/s]4505it [00:26, 173.78it/s]4523it [00:27, 174.55it/s]4541it [00:27, 171.15it/s]4559it [00:27, 171.27it/s]4577it [00:27, 172.59it/s]4595it [00:27, 173.06it/s]4613it [00:27, 171.46it/s]4631it [00:27, 168.77it/s]4649it [00:27, 170.19it/s]4667it [00:27, 171.45it/s]4685it [00:28, 171.51it/s]4703it [00:28, 172.92it/s]4721it [00:28, 171.32it/s]4739it [00:28, 169.90it/s]4739it [00:28, 167.28it/s]
+0it [00:00, ?it/s]16it [00:00, 157.62it/s]33it [00:00, 161.75it/s]50it [00:00, 153.59it/s]67it [00:00, 157.22it/s]83it [00:00, 156.35it/s]100it [00:00, 159.97it/s]117it [00:00, 162.13it/s]134it [00:00, 159.27it/s]150it [00:00, 154.59it/s]166it [00:01, 152.82it/s]183it [00:01, 155.45it/s]200it [00:01, 157.35it/s]216it [00:01, 153.25it/s]232it [00:01, 151.82it/s]249it [00:01, 155.01it/s]265it [00:01, 153.55it/s]282it [00:01, 155.37it/s]299it [00:01, 156.74it/s]316it [00:02, 158.58it/s]332it [00:02, 157.15it/s]349it [00:02, 158.98it/s]365it [00:02, 157.88it/s]381it [00:02, 156.87it/s]397it [00:02, 156.67it/s]413it [00:02, 157.48it/s]430it [00:02, 159.78it/s]446it [00:02, 159.59it/s]463it [00:02, 160.82it/s]480it [00:03, 158.26it/s]497it [00:03, 161.15it/s]514it [00:03, 160.54it/s]532it [00:03, 164.40it/s]549it [00:03, 161.07it/s]566it [00:03, 161.12it/s]583it [00:03, 159.65it/s]600it [00:03, 162.18it/s]617it [00:03, 160.23it/s]634it [00:04, 158.88it/s]650it [00:04, 157.33it/s]666it [00:04, 157.57it/s]683it [00:04, 159.88it/s]699it [00:04, 157.93it/s]715it [00:04, 157.15it/s]732it [00:04, 158.39it/s]749it [00:04, 160.74it/s]766it [00:04, 158.12it/s]782it [00:04, 157.49it/s]798it [00:05, 154.98it/s]814it [00:05, 154.89it/s]831it [00:05, 156.79it/s]847it [00:05, 156.42it/s]863it [00:05, 156.54it/s]880it [00:05, 159.11it/s]896it [00:05, 159.34it/s]912it [00:05, 158.70it/s]929it [00:05, 160.87it/s]946it [00:05, 161.79it/s]963it [00:06, 162.38it/s]980it [00:06, 158.59it/s]998it [00:06, 162.47it/s]1015it [00:06, 160.69it/s]1032it [00:06, 160.89it/s]1049it [00:06, 158.59it/s]1066it [00:06, 160.08it/s]1083it [00:06, 161.29it/s]1100it [00:06, 161.31it/s]1117it [00:07, 160.88it/s]1134it [00:07, 160.44it/s]1151it [00:07, 162.31it/s]1168it [00:07, 161.95it/s]1185it [00:07, 162.52it/s]1202it [00:07, 160.88it/s]1219it [00:07, 163.26it/s]1236it [00:07, 162.60it/s]1253it [00:07, 164.63it/s]1270it [00:07, 165.38it/s]1287it [00:08, 165.19it/s]1304it [00:08, 164.79it/s]1321it [00:08, 160.18it/s]1338it [00:08, 157.93it/s]1354it [00:08, 155.20it/s]1370it [00:08, 153.64it/s]1387it [00:08, 156.58it/s]1403it [00:08, 155.76it/s]1419it [00:08, 153.65it/s]1435it [00:09, 154.02it/s]1452it [00:09, 155.63it/s]1468it [00:09, 154.82it/s]1486it [00:09, 161.10it/s]1503it [00:09, 156.66it/s]1519it [00:09, 157.08it/s]1536it [00:09, 158.31it/s]1552it [00:09, 156.02it/s]1569it [00:09, 158.26it/s]1585it [00:09, 155.86it/s]1602it [00:10, 158.85it/s]1619it [00:10, 161.86it/s]1636it [00:10, 161.19it/s]1653it [00:10, 159.23it/s]1669it [00:10, 156.65it/s]1685it [00:10, 153.39it/s]1701it [00:10, 155.00it/s]1717it [00:10, 152.68it/s]1733it [00:10, 153.02it/s]1750it [00:11, 156.74it/s]1766it [00:11, 156.30it/s]1784it [00:11, 161.41it/s]1801it [00:11, 161.91it/s]1818it [00:11, 158.45it/s]1834it [00:11, 157.65it/s]1850it [00:11, 158.32it/s]1867it [00:11, 159.29it/s]1884it [00:11, 159.56it/s]1901it [00:11, 158.87it/s]1918it [00:12, 160.05it/s]1935it [00:12, 158.86it/s]1951it [00:12, 157.15it/s]1967it [00:12, 154.89it/s]1983it [00:12, 154.64it/s]1999it [00:12, 153.55it/s]2015it [00:12, 150.85it/s]2031it [00:12, 151.60it/s]2048it [00:12, 155.12it/s]2065it [00:13, 159.23it/s]2082it [00:13, 161.91it/s]2099it [00:13, 163.11it/s]2116it [00:13, 160.52it/s]2133it [00:13, 161.71it/s]2150it [00:13, 160.92it/s]2167it [00:13, 161.46it/s]2184it [00:13, 160.56it/s]2201it [00:13, 158.14it/s]2217it [00:13, 157.39it/s]2234it [00:14, 160.31it/s]2251it [00:14, 159.28it/s]2268it [00:14, 161.22it/s]2285it [00:14, 161.50it/s]2302it [00:14, 158.52it/s]2319it [00:14, 159.57it/s]2335it [00:14, 154.90it/s]2352it [00:14, 156.80it/s]2368it [00:14, 154.00it/s]2385it [00:15, 156.18it/s]2401it [00:15, 155.54it/s]2417it [00:15, 155.06it/s]2434it [00:15, 158.08it/s]2451it [00:15, 158.98it/s]2467it [00:15, 158.44it/s]2483it [00:15, 158.73it/s]2500it [00:15, 159.16it/s]2517it [00:15, 160.88it/s]2534it [00:15, 159.13it/s]2551it [00:16, 160.61it/s]2568it [00:16, 159.48it/s]2586it [00:16, 161.66it/s]2603it [00:16, 161.84it/s]2620it [00:16, 158.93it/s]2636it [00:16, 156.96it/s]2652it [00:16, 155.67it/s]2668it [00:16, 154.66it/s]2684it [00:16, 153.93it/s]2700it [00:17, 153.57it/s]2716it [00:17, 152.55it/s]2733it [00:17, 156.32it/s]2749it [00:17, 152.49it/s]2765it [00:17, 153.32it/s]2781it [00:17, 153.28it/s]2799it [00:17, 158.56it/s]2815it [00:17, 158.96it/s]2831it [00:17, 158.33it/s]2847it [00:17, 157.70it/s]2864it [00:18, 159.63it/s]2880it [00:18, 157.76it/s]2896it [00:18, 156.90it/s]2913it [00:18, 158.19it/s]2930it [00:18, 160.95it/s]2947it [00:18, 158.67it/s]2963it [00:18, 159.04it/s]2979it [00:18, 154.83it/s]2995it [00:18, 155.43it/s]3011it [00:19, 154.49it/s]3027it [00:19, 156.05it/s]3044it [00:19, 158.02it/s]3061it [00:19, 159.16it/s]3077it [00:19, 156.77it/s]3094it [00:19, 158.50it/s]3110it [00:19, 157.04it/s]3126it [00:19, 154.53it/s]3142it [00:19, 151.73it/s]3158it [00:19, 153.41it/s]3174it [00:20, 154.32it/s]3191it [00:20, 156.38it/s]3208it [00:20, 158.45it/s]3224it [00:20, 157.22it/s]3241it [00:20, 157.90it/s]3259it [00:20, 163.04it/s]3276it [00:20, 162.57it/s]3293it [00:20, 162.07it/s]3310it [00:20, 162.77it/s]3328it [00:21, 165.17it/s]3346it [00:21, 166.89it/s]3363it [00:21, 165.99it/s]3380it [00:21, 163.47it/s]3397it [00:21, 162.16it/s]3414it [00:21, 158.51it/s]3430it [00:21, 155.08it/s]3447it [00:21, 156.62it/s]3463it [00:21, 156.62it/s]3479it [00:21, 155.54it/s]3495it [00:22, 151.84it/s]3512it [00:22, 155.06it/s]3528it [00:22, 154.29it/s]3545it [00:22, 156.99it/s]3562it [00:22, 158.35it/s]3578it [00:22, 158.21it/s]3595it [00:22, 160.86it/s]3612it [00:22, 163.45it/s]3629it [00:22, 164.96it/s]3646it [00:23, 162.85it/s]3663it [00:23, 163.74it/s]3680it [00:23, 158.85it/s]3696it [00:23, 155.41it/s]3713it [00:23, 158.50it/s]3730it [00:23, 161.11it/s]3747it [00:23, 157.41it/s]3763it [00:23, 157.45it/s]3779it [00:23, 156.74it/s]3796it [00:23, 158.20it/s]3813it [00:24, 160.76it/s]3830it [00:24, 160.07it/s]3847it [00:24, 162.52it/s]3864it [00:24, 159.39it/s]3880it [00:24, 158.00it/s]3896it [00:24, 155.61it/s]3913it [00:24, 157.53it/s]3931it [00:24, 162.12it/s]3948it [00:24, 161.16it/s]3965it [00:25, 159.71it/s]3982it [00:25, 162.59it/s]4000it [00:25, 165.83it/s]4017it [00:25, 164.07it/s]4034it [00:25, 164.77it/s]4051it [00:25, 163.05it/s]4068it [00:25, 159.73it/s]4085it [00:25, 160.53it/s]4102it [00:25, 161.75it/s]4119it [00:25, 161.21it/s]4136it [00:26, 162.25it/s]4153it [00:26, 162.82it/s]4170it [00:26, 163.72it/s]4188it [00:26, 165.27it/s]4205it [00:26, 165.99it/s]4222it [00:26, 162.22it/s]4240it [00:26, 165.36it/s]4257it [00:26, 163.94it/s]4274it [00:26, 161.66it/s]4291it [00:27, 157.58it/s]4308it [00:27, 160.83it/s]4326it [00:27, 164.09it/s]4343it [00:27, 163.77it/s]4360it [00:27, 163.67it/s]4378it [00:27, 166.15it/s]4395it [00:27, 164.91it/s]4412it [00:27, 164.78it/s]4429it [00:27, 164.50it/s]4446it [00:27, 162.08it/s]4463it [00:28, 160.17it/s]4480it [00:28, 162.98it/s]4497it [00:28, 161.56it/s]4514it [00:28, 161.65it/s]4531it [00:28, 161.13it/s]4548it [00:28, 162.38it/s]4565it [00:28, 160.64it/s]4582it [00:28, 160.93it/s]4599it [00:28, 161.38it/s]4616it [00:29, 163.49it/s]4633it [00:29, 160.67it/s]4650it [00:29, 162.54it/s]4667it [00:29, 162.86it/s]4684it [00:29, 161.52it/s]4701it [00:29, 160.08it/s]4719it [00:29, 163.35it/s]4736it [00:29, 162.54it/s]4753it [00:29, 163.85it/s]4770it [00:29, 161.62it/s]4787it [00:30, 162.06it/s]4804it [00:30, 163.99it/s]4821it [00:30, 162.36it/s]4838it [00:30, 163.46it/s]4856it [00:30, 166.17it/s]4873it [00:30, 165.84it/s]4891it [00:30, 167.50it/s]4908it [00:30, 165.72it/s]4925it [00:30, 166.65it/s]4942it [00:31, 164.91it/s]4959it [00:31, 165.12it/s]4976it [00:31, 165.65it/s]4993it [00:31, 164.32it/s]5010it [00:31, 162.25it/s]5027it [00:31, 161.04it/s]5044it [00:31, 161.39it/s]5061it [00:31, 161.87it/s]5078it [00:31, 163.75it/s]5095it [00:31, 159.31it/s]5112it [00:32, 161.25it/s]5129it [00:32, 159.66it/s]5146it [00:32, 160.42it/s]5153it [00:32, 159.38it/s]
+0it [00:00, ?it/s]15it [00:00, 145.54it/s]30it [00:00, 139.71it/s]46it [00:00, 145.50it/s]61it [00:00, 142.16it/s]76it [00:00, 141.59it/s]91it [00:00, 139.40it/s]106it [00:00, 142.18it/s]121it [00:00, 141.88it/s]136it [00:00, 140.51it/s]152it [00:01, 143.86it/s]167it [00:01, 145.62it/s]183it [00:01, 147.36it/s]198it [00:01, 145.16it/s]213it [00:01, 142.71it/s]228it [00:01, 144.05it/s]243it [00:01, 144.57it/s]258it [00:01, 145.76it/s]274it [00:01, 147.43it/s]289it [00:02, 146.80it/s]305it [00:02, 147.76it/s]320it [00:02, 145.58it/s]335it [00:02, 145.97it/s]350it [00:02, 144.29it/s]366it [00:02, 146.24it/s]381it [00:02, 146.31it/s]396it [00:02, 145.97it/s]411it [00:02, 146.84it/s]426it [00:02, 147.51it/s]442it [00:03, 148.18it/s]458it [00:03, 149.37it/s]474it [00:03, 149.62it/s]489it [00:03, 148.75it/s]500it [00:03, 145.83it/s]
+0it [00:00, ?it/s]17it [00:00, 165.97it/s]35it [00:00, 170.36it/s]53it [00:00, 172.39it/s]71it [00:00, 169.88it/s]88it [00:00, 167.66it/s]105it [00:00, 168.37it/s]123it [00:00, 169.50it/s]140it [00:00, 169.46it/s]157it [00:00, 166.75it/s]174it [00:01, 165.68it/s]191it [00:01, 166.92it/s]209it [00:01, 169.07it/s]226it [00:01, 169.10it/s]243it [00:01, 168.24it/s]261it [00:01, 169.88it/s]279it [00:01, 170.15it/s]297it [00:01, 170.72it/s]315it [00:01, 170.69it/s]333it [00:01, 171.38it/s]351it [00:02, 169.50it/s]368it [00:02, 167.10it/s]385it [00:02, 166.05it/s]402it [00:02, 165.25it/s]419it [00:02, 163.12it/s]436it [00:02, 162.16it/s]453it [00:02, 163.40it/s]470it [00:02, 162.80it/s]487it [00:02, 162.52it/s]500it [00:02, 166.99it/s]
+0it [00:00, ?it/s]17it [00:00, 164.55it/s]34it [00:00, 160.00it/s]51it [00:00, 160.38it/s]68it [00:00, 160.16it/s]85it [00:00, 158.06it/s]102it [00:00, 160.21it/s]119it [00:00, 159.40it/s]135it [00:00, 154.69it/s]152it [00:00, 156.89it/s]168it [00:01, 157.52it/s]184it [00:01, 158.25it/s]201it [00:01, 161.38it/s]218it [00:01, 160.12it/s]235it [00:01, 160.16it/s]252it [00:01, 160.58it/s]269it [00:01, 161.83it/s]286it [00:01, 162.44it/s]303it [00:01, 160.56it/s]320it [00:02, 157.84it/s]336it [00:02, 158.45it/s]352it [00:02, 157.77it/s]368it [00:02, 155.60it/s]385it [00:02, 157.48it/s]402it [00:02, 158.93it/s]418it [00:02, 157.15it/s]434it [00:02, 157.80it/s]451it [00:02, 159.89it/s]467it [00:02, 157.94it/s]483it [00:03, 156.64it/s]499it [00:03, 154.35it/s]500it [00:03, 158.41it/s]
+The starting value for dist is: 40
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True, distance_threshold=40.0,
+                        n_clusters=None)
+All classes:
+{'wild': {0: 162, 5: 133, 1: 33, 2: 71, 6: 9, 7: 33, 4: 52, 3: 5}, 'dog': {1: 95, 6: 53, 7: 72, 0: 74, 3: 40, 4: 101, 5: 8, 2: 34}, 'cat': {7: 86, 4: 83, 0: 147, 6: 31, 1: 85, 3: 38, 2: 44, 5: 11}}
+Matched classes:
+{'wild': 0, 'dog': 4, 'cat': 7}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 6
+Length of x: 1500
+{0: 0, 4: 1, 7: 2}
+{0: 0, 4: 1, 7: 2}
+Final accuracy on train dataset:    0.23266666666666666
+Final accuracy on val dataset:      0.13133333333333333
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=44.08163265306123, n_clusters=None)
+All classes:
+{'wild': {0: 295, 2: 66, 1: 80, 4: 52, 3: 5}, 'dog': {2: 167, 1: 87, 0: 82, 3: 40, 4: 101}, 'cat': {2: 171, 4: 83, 0: 158, 1: 75, 3: 38}}
+Matched classes:
+{'wild': 0, 'cat': 2, 'dog': 4}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 5
+Length of x: 1500
+{0: 0, 4: 1, 2: 2}
+{0: 0, 4: 1, 2: 2}
+Final accuracy on train dataset:    0.378
+Final accuracy on val dataset:      0.154
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=48.16326530612245, n_clusters=None)
+All classes:
+{'wild': {1: 295, 2: 66, 0: 132, 3: 5}, 'dog': {2: 167, 0: 188, 1: 82, 3: 40}, 'cat': {2: 171, 0: 158, 1: 158, 3: 38}}
+Matched classes:
+{'wild': 1, 'dog': 0, 'cat': 2}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 4
+Length of x: 1500
+{1: 0, 0: 1, 2: 2}
+{1: 0, 0: 1, 2: 2}
+Final accuracy on train dataset:    0.436
+Final accuracy on val dataset:      0.25
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=52.244897959183675, n_clusters=None)
+All classes:
+{'wild': {1: 295, 2: 66, 0: 132, 3: 5}, 'dog': {2: 167, 0: 188, 1: 82, 3: 40}, 'cat': {2: 171, 0: 158, 1: 158, 3: 38}}
+Matched classes:
+{'wild': 1, 'dog': 0, 'cat': 2}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 3
+Length of x: 1500
+{1: 0, 0: 1, 2: 2}
+{1: 0, 0: 1, 2: 2}
+Final accuracy on train dataset:    0.436
+Final accuracy on val dataset:      0.212
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=56.326530612244895, n_clusters=None)
+All classes:
+{'wild': {1: 295, 2: 66, 0: 132, 3: 5}, 'dog': {2: 167, 0: 188, 1: 82, 3: 40}, 'cat': {2: 171, 0: 158, 1: 158, 3: 38}}
+Matched classes:
+{'wild': 1, 'dog': 0, 'cat': 2}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 3
+Length of x: 1500
+{1: 0, 0: 1, 2: 2}
+{1: 0, 0: 1, 2: 2}
+Final accuracy on train dataset:    0.436
+Final accuracy on val dataset:      0.212
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=60.40816326530612, n_clusters=None)
+All classes:
+{'wild': {1: 295, 2: 66, 0: 137}, 'dog': {2: 167, 0: 228, 1: 82}, 'cat': {2: 171, 0: 196, 1: 158}}
+Matched classes:
+{'wild': 1, 'dog': 0, 'cat': 2}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 2
+Length of x: 1500
+{1: 0, 0: 1, 2: 2}
+{1: 0, 0: 1, 2: 2}
+Final accuracy on train dataset:    0.46266666666666667
+Final accuracy on val dataset:      0.4826666666666667
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=64.48979591836735, n_clusters=None)
+All classes:
+{'wild': {1: 295, 2: 66, 0: 137}, 'dog': {2: 167, 0: 228, 1: 82}, 'cat': {2: 171, 0: 196, 1: 158}}
+Matched classes:
+{'wild': 1, 'dog': 0, 'cat': 2}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 2
+Length of x: 1500
+{1: 0, 0: 1, 2: 2}
+{1: 0, 0: 1, 2: 2}
+Final accuracy on train dataset:    0.46266666666666667
+Final accuracy on val dataset:      0.4826666666666667
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=68.57142857142857, n_clusters=None)
+All classes:
+{'wild': {0: 361, 1: 137}, 'dog': {0: 249, 1: 228}, 'cat': {0: 329, 1: 196}}
+Matched classes:
+{'wild': 0, 'dog': 1}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 2
+Length of x: 1500
+{0: 0, 1: 1}
+{0: 0, 1: 1}
+Final accuracy on train dataset:    0.39266666666666666
+Final accuracy on val dataset:      0.12866666666666668
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=72.65306122448979, n_clusters=None)
+All classes:
+{'wild': {0: 361, 1: 137}, 'dog': {0: 249, 1: 228}, 'cat': {0: 329, 1: 196}}
+Matched classes:
+{'wild': 0, 'dog': 1}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 2
+Length of x: 1500
+{0: 0, 1: 1}
+{0: 0, 1: 1}
+Final accuracy on train dataset:    0.39266666666666666
+Final accuracy on val dataset:      0.12866666666666668
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=76.73469387755102, n_clusters=None)
+All classes:
+{'wild': {0: 361, 1: 137}, 'dog': {0: 249, 1: 228}, 'cat': {0: 329, 1: 196}}
+Matched classes:
+{'wild': 0, 'dog': 1}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 1
+Length of x: 1500
+{0: 0, 1: 1}
+{0: 0, 1: 1}
+Final accuracy on train dataset:    0.39266666666666666
+Final accuracy on val dataset:      0.424
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=80.81632653061224, n_clusters=None)
+All classes:
+{'wild': {0: 361, 1: 137}, 'dog': {0: 249, 1: 228}, 'cat': {0: 329, 1: 196}}
+Matched classes:
+{'wild': 0, 'dog': 1}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 1
+Length of x: 1500
+{0: 0, 1: 1}
+{0: 0, 1: 1}
+Final accuracy on train dataset:    0.39266666666666666
+Final accuracy on val dataset:      0.424
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=84.89795918367346, n_clusters=None)
+All classes:
+{'wild': {0: 361, 1: 137}, 'dog': {0: 249, 1: 228}, 'cat': {0: 329, 1: 196}}
+Matched classes:
+{'wild': 0, 'dog': 1}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 1
+Length of x: 1500
+{0: 0, 1: 1}
+{0: 0, 1: 1}
+Final accuracy on train dataset:    0.39266666666666666
+Final accuracy on val dataset:      0.424
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=88.9795918367347, n_clusters=None)
+All classes:
+{'wild': {0: 361, 1: 137}, 'dog': {0: 249, 1: 228}, 'cat': {0: 329, 1: 196}}
+Matched classes:
+{'wild': 0, 'dog': 1}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 1
+Length of x: 1500
+{0: 0, 1: 1}
+{0: 0, 1: 1}
+Final accuracy on train dataset:    0.39266666666666666
+Final accuracy on val dataset:      0.424
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=93.06122448979592, n_clusters=None)
+All classes:
+{'wild': {0: 361, 1: 137}, 'dog': {0: 249, 1: 228}, 'cat': {0: 329, 1: 196}}
+Matched classes:
+{'wild': 0, 'dog': 1}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 1
+Length of x: 1500
+{0: 0, 1: 1}
+{0: 0, 1: 1}
+Final accuracy on train dataset:    0.39266666666666666
+Final accuracy on val dataset:      0.424
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=97.14285714285714, n_clusters=None)
+All classes:
+{'wild': {0: 361, 1: 137}, 'dog': {0: 249, 1: 228}, 'cat': {0: 329, 1: 196}}
+Matched classes:
+{'wild': 0, 'dog': 1}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 1
+Length of x: 1500
+{0: 0, 1: 1}
+{0: 0, 1: 1}
+Final accuracy on train dataset:    0.39266666666666666
+Final accuracy on val dataset:      0.424
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=101.22448979591837, n_clusters=None)
+All classes:
+{'wild': {0: 361, 1: 137}, 'dog': {0: 249, 1: 228}, 'cat': {0: 329, 1: 196}}
+Matched classes:
+{'wild': 0, 'dog': 1}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 1
+Length of x: 1500
+{0: 0, 1: 1}
+{0: 0, 1: 1}
+Final accuracy on train dataset:    0.39266666666666666
+Final accuracy on val dataset:      0.424
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=105.3061224489796, n_clusters=None)
+All classes:
+{'wild': {0: 361, 1: 137}, 'dog': {0: 249, 1: 228}, 'cat': {0: 329, 1: 196}}
+Matched classes:
+{'wild': 0, 'dog': 1}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 1
+Length of x: 1500
+{0: 0, 1: 1}
+{0: 0, 1: 1}
+Final accuracy on train dataset:    0.39266666666666666
+Final accuracy on val dataset:      0.424
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=109.38775510204081, n_clusters=None)
+All classes:
+{'wild': {0: 361, 1: 137}, 'dog': {0: 249, 1: 228}, 'cat': {0: 329, 1: 196}}
+Matched classes:
+{'wild': 0, 'dog': 1}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 0
+Length of x: 1500
+{0: 0, 1: 1}
+{0: 0, 1: 1}
+Final accuracy on train dataset:    0.39266666666666666
+Final accuracy on val dataset:      0.3333333333333333
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=113.46938775510205, n_clusters=None)
+All classes:
+{'wild': {0: 498}, 'dog': {0: 477}, 'cat': {0: 525}}
+Matched classes:
+{'cat': 0}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 0
+Length of x: 1500
+{0: 2}
+{0: 2}
+Final accuracy on train dataset:    0.35
+Final accuracy on val dataset:      0.3333333333333333
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=117.55102040816327, n_clusters=None)
+All classes:
+{'wild': {0: 498}, 'dog': {0: 477}, 'cat': {0: 525}}
+Matched classes:
+{'cat': 0}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 0
+Length of x: 1500
+{0: 2}
+{0: 2}
+Final accuracy on train dataset:    0.35
+Final accuracy on val dataset:      0.3333333333333333
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=121.63265306122449, n_clusters=None)
+All classes:
+{'wild': {0: 498}, 'dog': {0: 477}, 'cat': {0: 525}}
+Matched classes:
+{'cat': 0}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 0
+Length of x: 1500
+{0: 2}
+{0: 2}
+Final accuracy on train dataset:    0.35
+Final accuracy on val dataset:      0.3333333333333333
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=125.71428571428572, n_clusters=None)
+All classes:
+{'wild': {0: 498}, 'dog': {0: 477}, 'cat': {0: 525}}
+Matched classes:
+{'cat': 0}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 0
+Length of x: 1500
+{0: 2}
+{0: 2}
+Final accuracy on train dataset:    0.35
+Final accuracy on val dataset:      0.3333333333333333
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=129.79591836734693, n_clusters=None)
+All classes:
+{'wild': {0: 498}, 'dog': {0: 477}, 'cat': {0: 525}}
+Matched classes:
+{'cat': 0}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 0
+Length of x: 1500
+{0: 2}
+{0: 2}
+Final accuracy on train dataset:    0.35
+Final accuracy on val dataset:      0.3333333333333333
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=133.87755102040816, n_clusters=None)
+All classes:
+{'wild': {0: 498}, 'dog': {0: 477}, 'cat': {0: 525}}
+Matched classes:
+{'cat': 0}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 0
+Length of x: 1500
+{0: 2}
+{0: 2}
+Final accuracy on train dataset:    0.35
+Final accuracy on val dataset:      0.3333333333333333
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=137.9591836734694, n_clusters=None)
+All classes:
+{'wild': {0: 498}, 'dog': {0: 477}, 'cat': {0: 525}}
+Matched classes:
+{'cat': 0}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 0
+Length of x: 1500
+{0: 2}
+{0: 2}
+Final accuracy on train dataset:    0.35
+Final accuracy on val dataset:      0.3333333333333333
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=142.0408163265306, n_clusters=None)
+All classes:
+{'wild': {0: 498}, 'dog': {0: 477}, 'cat': {0: 525}}
+Matched classes:
+{'cat': 0}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 0
+Length of x: 1500
+{0: 2}
+{0: 2}
+Final accuracy on train dataset:    0.35
+Final accuracy on val dataset:      0.3333333333333333
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=146.12244897959184, n_clusters=None)
+All classes:
+{'wild': {0: 498}, 'dog': {0: 477}, 'cat': {0: 525}}
+Matched classes:
+{'cat': 0}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 0
+Length of x: 1500
+{0: 2}
+{0: 2}
+Final accuracy on train dataset:    0.35
+Final accuracy on val dataset:      0.3333333333333333
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=150.20408163265307, n_clusters=None)
+All classes:
+{'wild': {0: 498}, 'dog': {0: 477}, 'cat': {0: 525}}
+Matched classes:
+{'cat': 0}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 0
+Length of x: 1500
+{0: 2}
+{0: 2}
+Final accuracy on train dataset:    0.35
+Final accuracy on val dataset:      0.3333333333333333
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=154.28571428571428, n_clusters=None)
+All classes:
+{'wild': {0: 498}, 'dog': {0: 477}, 'cat': {0: 525}}
+Matched classes:
+{'cat': 0}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 0
+Length of x: 1500
+{0: 2}
+{0: 2}
+Final accuracy on train dataset:    0.35
+Final accuracy on val dataset:      0.3333333333333333
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=158.3673469387755, n_clusters=None)
+All classes:
+{'wild': {0: 498}, 'dog': {0: 477}, 'cat': {0: 525}}
+Matched classes:
+{'cat': 0}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 0
+Length of x: 1500
+{0: 2}
+{0: 2}
+Final accuracy on train dataset:    0.35
+Final accuracy on val dataset:      0.3333333333333333
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=162.44897959183675, n_clusters=None)
+All classes:
+{'wild': {0: 498}, 'dog': {0: 477}, 'cat': {0: 525}}
+Matched classes:
+{'cat': 0}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 0
+Length of x: 1500
+{0: 2}
+{0: 2}
+Final accuracy on train dataset:    0.35
+Final accuracy on val dataset:      0.3333333333333333
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=166.53061224489795, n_clusters=None)
+All classes:
+{'wild': {0: 498}, 'dog': {0: 477}, 'cat': {0: 525}}
+Matched classes:
+{'cat': 0}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 0
+Length of x: 1500
+{0: 2}
+{0: 2}
+Final accuracy on train dataset:    0.35
+Final accuracy on val dataset:      0.3333333333333333
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=170.6122448979592, n_clusters=None)
+All classes:
+{'wild': {0: 498}, 'dog': {0: 477}, 'cat': {0: 525}}
+Matched classes:
+{'cat': 0}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 0
+Length of x: 1500
+{0: 2}
+{0: 2}
+Final accuracy on train dataset:    0.35
+Final accuracy on val dataset:      0.3333333333333333
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=174.69387755102042, n_clusters=None)
+All classes:
+{'wild': {0: 498}, 'dog': {0: 477}, 'cat': {0: 525}}
+Matched classes:
+{'cat': 0}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 0
+Length of x: 1500
+{0: 2}
+{0: 2}
+Final accuracy on train dataset:    0.35
+Final accuracy on val dataset:      0.3333333333333333
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=178.77551020408163, n_clusters=None)
+All classes:
+{'wild': {0: 498}, 'dog': {0: 477}, 'cat': {0: 525}}
+Matched classes:
+{'cat': 0}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 0
+Length of x: 1500
+{0: 2}
+{0: 2}
+Final accuracy on train dataset:    0.35
+Final accuracy on val dataset:      0.3333333333333333
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=182.85714285714286, n_clusters=None)
+All classes:
+{'wild': {0: 498}, 'dog': {0: 477}, 'cat': {0: 525}}
+Matched classes:
+{'cat': 0}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 0
+Length of x: 1500
+{0: 2}
+{0: 2}
+Final accuracy on train dataset:    0.35
+Final accuracy on val dataset:      0.3333333333333333
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=186.9387755102041, n_clusters=None)
+All classes:
+{'wild': {0: 498}, 'dog': {0: 477}, 'cat': {0: 525}}
+Matched classes:
+{'cat': 0}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 0
+Length of x: 1500
+{0: 2}
+{0: 2}
+Final accuracy on train dataset:    0.35
+Final accuracy on val dataset:      0.3333333333333333
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=191.0204081632653, n_clusters=None)
+All classes:
+{'wild': {0: 498}, 'dog': {0: 477}, 'cat': {0: 525}}
+Matched classes:
+{'cat': 0}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 0
+Length of x: 1500
+{0: 2}
+{0: 2}
+Final accuracy on train dataset:    0.35
+Final accuracy on val dataset:      0.3333333333333333
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=195.10204081632654, n_clusters=None)
+All classes:
+{'wild': {0: 498}, 'dog': {0: 477}, 'cat': {0: 525}}
+Matched classes:
+{'cat': 0}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 0
+Length of x: 1500
+{0: 2}
+{0: 2}
+Final accuracy on train dataset:    0.35
+Final accuracy on val dataset:      0.3333333333333333
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=199.18367346938777, n_clusters=None)
+All classes:
+{'wild': {0: 498}, 'dog': {0: 477}, 'cat': {0: 525}}
+Matched classes:
+{'cat': 0}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 0
+Length of x: 1500
+{0: 2}
+{0: 2}
+Final accuracy on train dataset:    0.35
+Final accuracy on val dataset:      0.3333333333333333
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=203.26530612244898, n_clusters=None)
+All classes:
+{'wild': {0: 498}, 'dog': {0: 477}, 'cat': {0: 525}}
+Matched classes:
+{'cat': 0}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 0
+Length of x: 1500
+{0: 2}
+{0: 2}
+Final accuracy on train dataset:    0.35
+Final accuracy on val dataset:      0.3333333333333333
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=207.3469387755102, n_clusters=None)
+All classes:
+{'wild': {0: 498}, 'dog': {0: 477}, 'cat': {0: 525}}
+Matched classes:
+{'cat': 0}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 0
+Length of x: 1500
+{0: 2}
+{0: 2}
+Final accuracy on train dataset:    0.35
+Final accuracy on val dataset:      0.3333333333333333
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=211.42857142857144, n_clusters=None)
+All classes:
+{'wild': {0: 498}, 'dog': {0: 477}, 'cat': {0: 525}}
+Matched classes:
+{'cat': 0}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 0
+Length of x: 1500
+{0: 2}
+{0: 2}
+Final accuracy on train dataset:    0.35
+Final accuracy on val dataset:      0.3333333333333333
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=215.51020408163265, n_clusters=None)
+All classes:
+{'wild': {0: 498}, 'dog': {0: 477}, 'cat': {0: 525}}
+Matched classes:
+{'cat': 0}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 0
+Length of x: 1500
+{0: 2}
+{0: 2}
+Final accuracy on train dataset:    0.35
+Final accuracy on val dataset:      0.3333333333333333
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=219.59183673469389, n_clusters=None)
+All classes:
+{'wild': {0: 498}, 'dog': {0: 477}, 'cat': {0: 525}}
+Matched classes:
+{'cat': 0}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 0
+Length of x: 1500
+{0: 2}
+{0: 2}
+Final accuracy on train dataset:    0.35
+Final accuracy on val dataset:      0.3333333333333333
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=223.67346938775512, n_clusters=None)
+All classes:
+{'wild': {0: 498}, 'dog': {0: 477}, 'cat': {0: 525}}
+Matched classes:
+{'cat': 0}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 0
+Length of x: 1500
+{0: 2}
+{0: 2}
+Final accuracy on train dataset:    0.35
+Final accuracy on val dataset:      0.3333333333333333
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=227.75510204081633, n_clusters=None)
+All classes:
+{'wild': {0: 498}, 'dog': {0: 477}, 'cat': {0: 525}}
+Matched classes:
+{'cat': 0}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 0
+Length of x: 1500
+{0: 2}
+{0: 2}
+Final accuracy on train dataset:    0.35
+Final accuracy on val dataset:      0.3333333333333333
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=231.83673469387756, n_clusters=None)
+All classes:
+{'wild': {0: 498}, 'dog': {0: 477}, 'cat': {0: 525}}
+Matched classes:
+{'cat': 0}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 0
+Length of x: 1500
+{0: 2}
+{0: 2}
+Final accuracy on train dataset:    0.35
+Final accuracy on val dataset:      0.3333333333333333
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True,
+                        distance_threshold=235.9183673469388, n_clusters=None)
+All classes:
+{'wild': {0: 498}, 'dog': {0: 477}, 'cat': {0: 525}}
+Matched classes:
+{'cat': 0}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 0
+Length of x: 1500
+{0: 2}
+{0: 2}
+Final accuracy on train dataset:    0.35
+Final accuracy on val dataset:      0.3333333333333333
+
+ Starting test with:
+AgglomerativeClustering(compute_full_tree=True, distance_threshold=240.0,
+                        n_clusters=None)
+All classes:
+{'wild': {0: 498}, 'dog': {0: 477}, 'cat': {0: 525}}
+Matched classes:
+{'cat': 0}
+Predictions stats on train:
+Different than -1: 0
+Max predicted class: 0
+Length of x: 1500
+{0: 2}
+{0: 2}
+Final accuracy on train dataset:    0.35
+Final accuracy on val dataset:      0.3333333333333333
+Best accuracy found 0.4826666666666667 with params:
+{'dist': 60.40816326530612}

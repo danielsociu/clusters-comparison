@@ -67,14 +67,16 @@ def class_matcher(search_data, predictions, class_names):
             class_names[class_name], search_data, predictions))
     all_classes_counters_copy = deepcopy(all_classes_counters)
     while len(all_classes_counters) > 0:
-        pair_found = get_pair_key_of_max(all_classes_counters)
-        results[pair_found[0]] = pair_found[1]
         delete_check = []
         for key in all_classes_counters.keys():
             if len(all_classes_counters[key]) == 0:
                 delete_check.append(key)
         for key in delete_check:
             del all_classes_counters[key]
+        if len(all_classes_counters) == 0:
+            continue
+        pair_found = get_pair_key_of_max(all_classes_counters)
+        results[pair_found[0]] = pair_found[1]
 
     return results, all_classes_counters_copy
 
@@ -233,8 +235,8 @@ def prepare_data_resnet(args):
 
 def main_dbscan(args, train_data, val_data):
     # extract images
-    X = extract_images(train_data)
-    X_val = extract_images(val_data)
+    # X = extract_images(train_data)
+    # X_val = extract_images(val_data)
 
     # if args.plot:
     #     pca = PCA(n_components=2)
@@ -248,12 +250,19 @@ def main_dbscan(args, train_data, val_data):
     # predfict
     if args.grid_search:
         min_eps_value = get_minimum_distance_dbscan(train_data)
-        print(f'The starting value for eps is: {min_eps_value}')
+        sample_range = list(range(5,15))
         eps_values = np.linspace(min_eps_value, min_eps_value + 10, 20)
+
+        if args.limit_train:
+            min_eps_value = 0.5
+            sample_range = list(range(1, 30))
+            eps_values = np.linspace(min_eps_value, min_eps_value + 30, 60)
+
+        print(f'The starting value for eps is: {min_eps_value}')
         best_acc = 0
         best_params = {}
         for eps in eps_values:
-            for samples in range(5, 15):
+            for samples in sample_range:
                 model = DBSCAN(eps=eps, min_samples=samples)
                 train_acc, val_acc = predict_dbscan(
                     args, model, train_data, val_data, CLASS_NAMES)
@@ -267,11 +276,17 @@ def main_dbscan(args, train_data, val_data):
         print(best_params)
     else:
         model = DBSCAN(eps=16.3, min_samples=5)
+        if args.limit_train:
+            model = DBSCAN(eps=13.12, min_samples=24)
         train_acc, val_acc = predict_dbscan(args, model, train_data, val_data, CLASS_NAMES)
 
 
 def main_aglomerative(args):
-    pass
+    model = DBSCAN(eps=16.3, min_samples=5)
+    if args.limit_train:
+        model = DBSCAN(eps=13.12, min_samples=24)
+    train_acc, val_acc = predict_dbscan(args, model, train_data, val_data, CLASS_NAMES)
+
 
 if __name__ == "__main__":
     args = parse_args()

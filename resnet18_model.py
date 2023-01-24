@@ -1,5 +1,5 @@
-import plotly
 from sklearn.decomposition import PCA
+import random
 import cv2
 import numpy as np
 from tqdm import tqdm
@@ -10,6 +10,7 @@ from tqdm import tqdm
 from collections import defaultdict
 from copy import deepcopy
 import argparse
+import plotly.express as px
 
 from PIL import Image
 import torch
@@ -18,6 +19,9 @@ from torchvision import transforms
 
 from sklearn.cluster import DBSCAN
 from sklearn.metrics import accuracy_score
+
+SEED=42
+random.seed(SEED)
 
 
 def get_classes(data_path):
@@ -55,16 +59,22 @@ def read_featured_data(data_path, model, transformer, device):
     return all_data
 
 
-def class_matcher(search_data, predictions):
+def class_matcher(search_data, predictions, class_names):
     results = {}
     all_classes_counters = {}
-    for class_name in CLASS_NAMES.keys():
+    for class_name in class_names.keys():
         all_classes_counters[class_name] = dict(class_correct_counter(
-            CLASS_NAMES[class_name], search_data, predictions))
+            class_names[class_name], search_data, predictions))
     all_classes_counters_copy = deepcopy(all_classes_counters)
     while len(all_classes_counters) > 0:
         pair_found = get_pair_key_of_max(all_classes_counters)
         results[pair_found[0]] = pair_found[1]
+        delete_check = []
+        for key in all_classes_counters.keys():
+            if len(all_classes_counters[key]) == 0:
+                delete_check.append(key)
+        for key in delete_check:
+            del all_classes_counters[key]
 
     return results, all_classes_counters_copy
 
@@ -124,11 +134,64 @@ def calculate_accuracy(dataset, predictions, actual_classes, class_to_id):
     return accuracy_score(labels, final_preds)
 
 
+def predict_dbscan(args, model, train, val, class_names):
+    print('\n Starting test with:')
+    print(model)
+    X = extract_images(train)
+    X_val = extract_images(val)
+    clustering = model.fit(X)
+    train_preds = clustering.labels_
+    val_preds = clustering.fit_predict(X_val)
+
+    # get class matchers given predictions and labels
+    class_to_preds, all_classes = class_matcher(
+        train, train_preds, class_names)
+
+    if args.verbose:
+        print("All classes:")
+        print(all_classes)
+        print("Matched classes:")
+        print(class_to_preds)
+
+        print("Predictions stats on train:")
+        print(
+            f'Different than -1: {np.count_nonzero(clustering.labels_ == -1)}')
+        print(f'Max predicted class: {max(clustering.labels_)}')
+        print(f'Length of x: {len(X)}')
+    train_acc = calculate_accuracy(
+        train, train_preds, class_names, class_to_preds)
+    val_acc = calculate_accuracy(val, val_preds, class_names, class_to_preds)
+
+    print(f'Final accuracy on train dataset:    {train_acc}')
+    print(f'Final accuracy on val dataset:      {val_acc}')
+    return train_acc, val_acc
+
+
+def get_minimum_distance_dbscan(train_data, percent=0.7, max_eps=30):
+    X = extract_images(train_data)
+    possible_values = list(range(0, max_eps))
+    possible_values[0] = 0.5
+    for eps in possible_values:
+        model = DBSCAN(eps=eps, min_samples=2).fit(X)
+        if np.count_nonzero(model.labels_ == -1) < int(len(X) * percent):
+            return eps
+    return max_eps
+
+
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--plot', action='store_true', help='Whether to plot stuffs')
-    parser.add_argument('--verbose', action='store_true', help='Whether to print extra info')
-    parser.add_argument('--type', type=str, default=DBSCAN, choices=['DBSCAN'], help='Type of model to train')
+    parser.add_argument('--plot', action='store_true',
+                        help='Whether to plot stuffs')
+    parser.add_argument('--verbose', action='store_true',
+                        help='Whether to print extra info')
+    parser.add_argument('--grid-search', action='store_true',
+                        help='Whether to use a grid-search strategy')
+    parser.add_argument('--limit-train', action='store_true',
+                        help='wether to limit train to same amount of data as val')
+    parser.add_argument('--type', type=str, default='DBSCAN',
+                        choices=['DBSCAN'], help='Type of model to train')
+    parser.add_argument('--feature-type', type=str, default='resnet',
+                        choices=['resnet'], help='Type of feature engineering')
     args = parser.parse_args()
     return args
 
@@ -137,9 +200,7 @@ TRAIN_DATA_PATH = Path('./afhq/train')
 VAL_DATA_PATH = Path('./afhq/val')
 CLASS_NAMES = get_classes(TRAIN_DATA_PATH)
 
-
-def main_dbscan_resnet(args):
-    # class specific initializations:
+def prepare_data_resnet(args):
     DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     # https://pytorch.org/vision/main/models/generated/torchvision.models.resnet18.html
     base_model = resnet18(pretrained=True)
@@ -155,62 +216,69 @@ def main_dbscan_resnet(args):
             mean=[0.485, 0.456, 0.406],
             std=[0.229, 0.224, 0.225]
         )])
-    
+
     # read the data
     train_data = read_featured_data(
         TRAIN_DATA_PATH, RESNET_EXTRACTOR, IMAGE_EXTRACTOR, DEVICE)
     val_data = read_featured_data(
         VAL_DATA_PATH, RESNET_EXTRACTOR, IMAGE_EXTRACTOR, DEVICE)
-    
+
+    if args.limit_train:
+        train_data = random.sample(train_data, len(val_data))
+
     # delete the resnet model
     del RESNET_EXTRACTOR
     torch.cuda.empty_cache()
+    return train_data, val_data
 
+def main_dbscan(args, train_data, val_data):
     # extract images
     X = extract_images(train_data)
     X_val = extract_images(val_data)
 
-
-    if args.plot:
-        pca = PCA(n_components=512)
-        points = pca.fit_transform(X)
-        points_val = pca.fit_transform(X_val)
-        fig = plotly.subplots.make_subplots(rows=2, cols=1)
-        fig.add_trace(
-            plotly.express.scatter(points, x=0, y=1),
-            row=1, col=1
-        )
-        fig.add_trace(
-            plotly.express.scatter(points_val, x=0, y=1),
-            row=1, col=1
-        )
-        fig.update_layout(height=800, width=800, title_text="Train points vs val points")
-        fig.show()
+    # if args.plot:
+    #     pca = PCA(n_components=2)
+    #     points = pca.fit_transform(X)
+    #     points_val = pca.transform(X_val)
+    #     fig = px.scatter(points, x=0, y=1)
+    #     fig.show()
+    #     fig = px.scatter(points_val, x=0, y=1)
+    #     fig.show()
 
     # predfict
-    clustering = DBSCAN(eps=14, min_samples=25).fit(X)
-    train_preds = clustering.labels_
-    val_preds = clustering.fit_predict(X_val)
+    if args.grid_search:
+        min_eps_value = get_minimum_distance_dbscan(train_data)
+        print(f'The starting value for eps is: {min_eps_value}')
+        eps_values = np.linspace(min_eps_value, min_eps_value + 10, 20)
+        best_acc = 0
+        best_params = {}
+        for eps in eps_values:
+            for samples in range(5, 15):
+                model = DBSCAN(eps=eps, min_samples=samples)
+                train_acc, val_acc = predict_dbscan(
+                    args, model, train_data, val_data, CLASS_NAMES)
+                if best_acc < val_acc:
+                    best_acc = val_acc
+                    best_params = {
+                        'eps': eps,
+                        'min_samples': samples
+                    }
+        print(f'Best accuracy found {best_acc} with params:')
+        print(best_params)
+    else:
+        model = DBSCAN(eps=16.3, min_samples=5)
+        train_acc, val_acc = predict_dbscan(args, model, train_data, val_data, CLASS_NAMES)
 
-    # get class matchers given predictions and labels
-    class_to_preds, all_classes = class_matcher(train_data, train_preds)
 
-    if args.verbose:
-        print("All classes:")
-        print(all_classes)
-        print("Matched classes:")
-        print(class_to_preds)
-
-        print("Predictions stats on train:")
-        print(f'Different than -1: {np.count_nonzero(clustering.labels_ == -1)}')
-        print(f'Max predicted class: {max(clustering.labels_)}')
-        print(f'Length of x: {len(X)}')
-
-    print(f'Final accuracy on train dataset:    {calculate_accuracy(train_data, train_preds, CLASS_NAMES, class_to_preds)}')
-    print(f'Final accuracy on val dataset:      {calculate_accuracy(val_data, val_preds, CLASS_NAMES, class_to_preds)}')
-
+def main_aglomerative(args):
+    pass
 
 if __name__ == "__main__":
     args = parse_args()
+    if args.feature_type == "resnet":
+        train_data, val_data = prepare_data_resnet(args)
+
     if args.type == "DBSCAN":
-        main_dbscan_resnet(args)
+        main_dbscan(args, train_data, val_data)
+    elif args.type == "AGLOMERATIVE":
+        main_aglomerative(args)

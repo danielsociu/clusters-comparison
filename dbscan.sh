@@ -1,7 +1,7 @@
 pyenv exec python3 resnet18_model.py \
     --verbose \
     --plot \
-    --type 'DBSCAN' \
-    --limit-train \
+    --type 'AGLOMERATIVE' \
     --feature-type 'resnet' \
     --grid-search
+    # --limit-train \

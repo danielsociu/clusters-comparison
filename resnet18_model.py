@@ -17,7 +17,7 @@ import torch
 from torchvision.models import resnet18
 from torchvision import transforms
 
-from sklearn.cluster import DBSCAN
+from sklearn.cluster import DBSCAN, AgglomerativeClustering
 from sklearn.metrics import accuracy_score
 
 SEED=42
@@ -136,7 +136,7 @@ def calculate_accuracy(dataset, predictions, actual_classes, class_to_id):
     return accuracy_score(labels, final_preds)
 
 
-def predict_dbscan(args, model, train, val, class_names):
+def predict(args, model, train, val, class_names):
     print('\n Starting test with:')
     print(model)
     X = extract_images(train)
@@ -179,6 +179,15 @@ def get_minimum_distance_dbscan(train_data, percent=0.7, max_eps=30):
             return eps
     return max_eps
 
+def get_minimum_distance_aglomerative(train_data, max_dist=250):
+    X = extract_images(train_data)
+    possible_values = list(range(10, max_dist, 5))
+    for dist in possible_values:
+        model = AgglomerativeClustering(n_clusters=None, distance_threshold=dist, compute_full_tree=True).fit(X)
+        if len(np.unique(model.labels_)) < 10:
+            return dist
+    return max_dist
+
 
 def parse_args():
     parser = argparse.ArgumentParser()
@@ -191,7 +200,7 @@ def parse_args():
     parser.add_argument('--limit-train', action='store_true',
                         help='wether to limit train to same amount of data as val')
     parser.add_argument('--type', type=str, default='DBSCAN',
-                        choices=['DBSCAN'], help='Type of model to train')
+                        choices=['DBSCAN', 'AGLOMERATIVE'], help='Type of model to train')
     parser.add_argument('--feature-type', type=str, default='resnet',
                         choices=['resnet'], help='Type of feature engineering')
     args = parser.parse_args()
@@ -264,7 +273,7 @@ def main_dbscan(args, train_data, val_data):
         for eps in eps_values:
             for samples in sample_range:
                 model = DBSCAN(eps=eps, min_samples=samples)
-                train_acc, val_acc = predict_dbscan(
+                train_acc, val_acc = predict(
                     args, model, train_data, val_data, CLASS_NAMES)
                 if best_acc < val_acc:
                     best_acc = val_acc
@@ -278,14 +287,38 @@ def main_dbscan(args, train_data, val_data):
         model = DBSCAN(eps=16.3, min_samples=5)
         if args.limit_train:
             model = DBSCAN(eps=13.12, min_samples=24)
-        train_acc, val_acc = predict_dbscan(args, model, train_data, val_data, CLASS_NAMES)
+        train_acc, val_acc = predict(args, model, train_data, val_data, CLASS_NAMES)
 
 
-def main_aglomerative(args):
-    model = DBSCAN(eps=16.3, min_samples=5)
-    if args.limit_train:
-        model = DBSCAN(eps=13.12, min_samples=24)
-    train_acc, val_acc = predict_dbscan(args, model, train_data, val_data, CLASS_NAMES)
+def main_aglomerative(args, train_data, val_data):
+    if args.grid_search:
+        min_dist_value = get_minimum_distance_aglomerative(train_data)
+        dist_values = np.linspace(min_dist_value, min_dist_value + 200, 50)
+
+        if args.limit_train:
+            min_dist_value = 1
+            dist_values = np.linspace(min_dist_value, min_dist_value + 300, 150)
+
+        print(f'The starting value for dist is: {min_dist_value}')
+        best_acc = 0
+        best_params = {}
+        for dist in dist_values:
+            model = AgglomerativeClustering(n_clusters=None, distance_threshold=dist, compute_full_tree=True)
+            train_acc, val_acc = predict(
+                args, model, train_data, val_data, CLASS_NAMES)
+            if best_acc < val_acc:
+                best_acc = val_acc
+                best_params = {
+                    'dist': dist
+                }
+        print(f'Best accuracy found {best_acc} with params:')
+        print(best_params)
+    else:
+        pass
+        model = AgglomerativeClustering(n_clusters=None, distance_threshold=343.87, compute_full_tree=True)
+        if args.limit_train:
+            model = AgglomerativeClustering(n_clusters=None, distance_threshold=176.16, compute_full_tree=True)
+        train_acc, val_acc = predict(args, model, train_data, val_data, CLASS_NAMES)
 
 
 if __name__ == "__main__":
@@ -296,4 +329,4 @@ if __name__ == "__main__":
     if args.type == "DBSCAN":
         main_dbscan(args, train_data, val_data)
     elif args.type == "AGLOMERATIVE":
-        main_aglomerative(args)
+        main_aglomerative(args, train_data, val_data)

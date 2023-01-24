@@ -20,6 +20,7 @@ from torchvision import transforms
 from sklearn.cluster import DBSCAN, AgglomerativeClustering
 from sklearn.metrics import accuracy_score
 from sklearn.preprocessing import StandardScaler
+from sklearn import svm
 
 SEED = 42
 random.seed(SEED)
@@ -60,7 +61,7 @@ def read_featured_data(data_path, model, transformer, device):
     return all_data
 
 
-def read_featured_data(data_path, orb):
+def read_featured_data_orb(data_path, orb):
     all_data = []
     backup_orb = cv2.ORB_create(
         nfeatures=orb.getMaxFeatures(), fastThreshold=0, edgeThreshold=0)
@@ -82,6 +83,19 @@ def read_featured_data(data_path, orb):
                 "path": str(full_image_path)
             })
     return all_data
+
+def read_labels(data_path):
+    all_data = []
+    for class_name in CLASS_NAMES.keys():
+        folder_path = data_path / class_name
+        for index, img_name in tqdm(enumerate(os.listdir(folder_path))):
+            full_image_path = folder_path / img_name
+            all_data.append({
+                "label": CLASS_NAMES[class_name],
+                "path": str(full_image_path)
+            })
+    return all_data
+
 
 
 def class_matcher(search_data, predictions, class_names):
@@ -232,6 +246,8 @@ def parse_args():
                         choices=['DBSCAN', 'AGLOMERATIVE'], help='Type of model to train')
     parser.add_argument('--feature-type', type=str, default='resnet',
                         choices=['resnet', 'orb'], help='Type of feature engineering')
+    parser.add_argument('--mode', type=str, default='unsupervised',
+                        choices=['unsupervised', 'random', 'supervised'], help='Type of training')
     args = parser.parse_args()
     return args
 
@@ -277,10 +293,11 @@ def prepare_data_orb(args):
 
     # read the data
     orb = cv2.ORB_create(nfeatures=100)
-    train_data = read_featured_data(TRAIN_DATA_PATH, orb)
-    val_data = read_featured_data(VAL_DATA_PATH, orb)
+    train_data = read_featured_data_orb(TRAIN_DATA_PATH, orb)
+    val_data = read_featured_data_orb(VAL_DATA_PATH, orb)
 
-    train_data = random.sample(train_data, len(val_data))
+    if args.mode != "supervised":
+        train_data = random.sample(train_data, len(val_data))
 
     if args.standard_scaler:
         X = extract_images(train_data)
@@ -389,17 +406,56 @@ def main_aglomerative(args, train_data, val_data):
             args, model, train_data, val_data, CLASS_NAMES)
 
 
+def main_random(args):
+    val_data = read_labels(VAL_DATA_PATH)
+    random_predictions = [random.randint(0, len(CLASS_NAMES) - 1) for _ in range(len(val_data))]
+
+    actual_labels = [sample['label'] for sample in val_data]
+
+    random_accuracy = accuracy_score(actual_labels, random_predictions)
+
+    print(f'The score using random preds is: {random_accuracy}')
+
+
+def main_supervised(args, train_data, val_data):
+    supervised_classifier = svm.SVC()
+    X = extract_images(train_data)
+    X_val = extract_images(val_data)
+    y = [sample['label'] for sample in train_data]
+    y_val = [sample['label'] for sample in val_data]
+
+    print("Training the SVM classifier")
+    supervised_classifier.fit(X, y)
+
+    
+    print("Predicting train data")
+    train_preds = supervised_classifier.predict(X)
+    print("Predicting val data")
+    val_preds = supervised_classifier.predict(X_val)
+
+    train_acc = accuracy_score(y, train_preds)
+    val_acc = accuracy_score(y_val, val_preds)
+    print(f'Final accuracy on train dataset:    {train_acc}')
+    print(f'Final accuracy on val dataset:      {val_acc}')
+
+
 if __name__ == "__main__":
     args = parse_args()
     if args.feature_type == "orb" and args.limit_train:
         print("CANNOT RUN ORB WITH LIMIT TRAIN")
         exit(-1)
-    if args.feature_type == "resnet":
-        train_data, val_data = prepare_data_resnet(args)
-    elif args.feature_type == "orb":
-        train_data, val_data = prepare_data_orb(args)
+    if args.mode == 'random':
+        main_random(args)
+    else:
+        if args.feature_type == "resnet":
+            train_data, val_data = prepare_data_resnet(args)
+        elif args.feature_type == "orb":
+            train_data, val_data = prepare_data_orb(args)
 
-    if args.type == "DBSCAN":
-        main_dbscan(args, train_data, val_data)
-    elif args.type == "AGLOMERATIVE":
-        main_aglomerative(args, train_data, val_data)
+        if args.mode == "supervised":
+            main_supervised(args, train_data, val_data)
+        else:
+            if args.type == "DBSCAN":
+                main_dbscan(args, train_data, val_data)
+            elif args.type == "AGLOMERATIVE":
+                main_aglomerative(args, train_data, val_data)
